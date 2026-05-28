@@ -159,5 +159,77 @@
         "index": 10
       }
     ]
+  },
+  {
+    "slug": "adrian-ott",
+    "speaker": "Adrian Ott",
+    "title": "KI in der Schweiz: Zahlen, Reality-Check und was Führungskräfte jetzt tun müssen",
+    "tagline": "89 % nutzen KI – aber nur 12 % sehen messbare Kosteneinsparungen. Die Lücke ist das Thema.",
+    "summary": "Adrian Ott von EY Schweiz liefert einen faktenbasierten Lagebericht zur KI-Adoption in Schweizer Unternehmen – basierend auf einer Umfrage mit 64 Firmen. 89 % nutzen KI in mindestens einer Businessfunktion, doch echte Prozessautomatisierung findet erst bei 34 % statt. Er zeigt den wachsenden Konflikt zwischen dem, was Firmen zulassen (private ChatGPT-Accounts), und dem, was sie eigentlich wollen (Datensouveränität in der Schweiz). Mit einem ehrlichen Reality-Check zu KI-Agents – Fehler potenzieren sich in Multi-Agenten-Systemen exponentiell – und dem Hinweis auf steigende Token-Kosten als neuer Unternehmenskennzahl schliesst er mit dem Appell: Führungskräfte müssen diese Tools selbst nutzen, klare Governance aufbauen und Forschern echten Freiraum geben.",
+    "insights": [
+      "89 % der Schweizer Firmen nutzen KI in mindestens einer Businessfunktion – doch nur 34 % haben Geschäftsprozesse damit automatisiert. Die Adoption ist breit, die Transformation noch flach.",
+      "Nur 16 % der Schweizer CEOs sehen bereits messbare Kosteneinsparungen durch KI. Es wird zuerst teurer, bevor es günstiger wird – wer das nicht einplant, verliert die Geduld zu früh.",
+      "29 % der Firmen erlauben private ChatGPT-Accounts – obwohl 80 % sagen, Datensouveränität in der Schweiz sei extrem wichtig. Dieser Widerspruch ist ein ungelöstes Governance-Problem.",
+      "KI-Agents sind noch nicht so weit wie oft behauptet: Fehler in einem Agenten pflanzen sich exponentiell durch Multi-Agenten-Systeme fort. Einfache Abläufe brauchen schon heute sehr viel Engineering.",
+      "Coding ist der Bereich, wo KI-Agents heute am stärksten liefern: Was früher ein Startup und zwei Jahre gebraucht hätte, entstand bei EY in einer Stunde – ein vollständiger KYC-Prototyp, gebaut und getestet von der KI selbst.",
+      "Token-Kosten sind die neue Unternehmenskennzahl: Ein einziges KI-Training kann 2'000 Franken Tokens kosten. In Zukunft wird «wie viele Tokens darf ein Mitarbeiter nutzen» genauso wichtig sein wie das Gehalt.",
+      "Datenqualität ist die grösste Hürde bei der KI-Adoption – nicht die Technologie. Viele Daten sind veraltet, unstrukturiert und schlicht nicht KI-ready.",
+      "Führungskräfte müssen KI selbst benutzen – auch wenn es mal nicht klappt. Nur durch eigene Erfahrung erkennt man, was funktioniert. Zehn Trainings ohne Praxis bringen nichts."
+    ],
+    "quotes": [
+      "Was haben wir Menschen überhaupt noch für einen Vorteil gegenüber der KI? Die KI hat geantwortet: Es ist eure menschliche Unvollkommenheit, die euch unersetzbar macht.",
+      "29 % der Firmen erlauben private ChatGPT-Accounts – und 80 % sagen gleichzeitig, Datensouveränität sei extrem wichtig. Das ist ein Widerspruch, den man lösen muss.",
+      "In Zukunft wird es nicht nur darum gehen, wie viel Salär ein Mitarbeiter erhält – sondern auch, wie viele Tokens er verwenden darf, um sich und die Firma weiterzubringen."
+    ],
+    "chunks": [
+      {
+        "id": "adrian-ott-0",
+        "talkSlug": "adrian-ott",
+        "text": "Wir haben Workshops mit unseren Kunden und Teams gemacht und die Frage gestellt: Was haben wir Menschen überhaupt noch für einen Vorteil gegenüber der KI? Wir haben dann die KI gefragt: Was würdest du machen, wenn du für einen Tag ein menschlicher Mitarbeiter werden könntest? Die KI hat sehr viele menschliche Eigenschaften gewählt – und gesagt: Es ist eure menschliche Unvollkommenheit, die euch unersetzbar macht.",
+        "index": 0
+      },
+      {
+        "id": "adrian-ott-1",
+        "talkSlug": "adrian-ott",
+        "text": "Wir haben eine Umfrage mit 64 Schweizer Firmen durchgeführt. 88 % aller Firmen global nutzen KI in mindestens einer Businessfunktion. In der Schweiz sind es 89 %. 70 % haben Copilot etabliert – die Low-Hanging-Fruit, weil die meisten Firmen ihre Daten bereits in Microsoft Cloud haben. Direkte ChatGPT- oder Claude-Lizenzen haben nur 35 % – wegen Security-Assessments und DSGVO-Fragen.",
+        "index": 1
+      },
+      {
+        "id": "adrian-ott-2",
+        "talkSlug": "adrian-ott",
+        "text": "29 % der Firmen erlauben private ChatGPT-Accounts. Das ist problematisch, weil bei privaten Accounts unklar ist, was mit den Daten passiert. Und gleichzeitig sagen über 80 % der Befragten, dass ihnen Datensouveränität in der Schweiz extrem wichtig ist. Das ist ein klarer Widerspruch zwischen dem, was Firmen zulassen, und dem, was sie eigentlich wünschen.",
+        "index": 2
+      },
+      {
+        "id": "adrian-ott-3",
+        "talkSlug": "adrian-ott",
+        "text": "Nur 34 % der Firmen haben Geschäftsprozesse mit KI automatisiert. Nur 12 % der CEOs global – 16 % in der Schweiz – sagen, KI hat bereits messbare Kosteneinsparungen gebracht. Es wird zuerst teurer, bevor es günstiger wird. Die grössten Schwierigkeiten bei der KI-Adoption: Datenqualität, Security und Data Protection, und die richtigen Talente finden und halten.",
+        "index": 3
+      },
+      {
+        "id": "adrian-ott-4",
+        "talkSlug": "adrian-ott",
+        "text": "Zu KI-Agents: Karpathy, Mitgründer von OpenAI, sagt: Agents machen immer noch Fehler. Wenn ein Agent mit einem Fehler einen anderen Agent anruft, und dieser macht auch einen Fehler – die Fehler werden exponentiell schlimmer. Wer solche Systeme implementiert hat, weiss: Schon einfache Abläufe brauchen sehr viel Engineering, damit sie zuverlässig funktionieren.",
+        "index": 4
+      },
+      {
+        "id": "adrian-ott-5",
+        "talkSlug": "adrian-ott",
+        "text": "Wo Agents heute sehr gut funktionieren, ist Coding. Früher hat Karpathy 80 % selbst programmiert, 20 % hat die KI geholfen. Das hat sich gedreht: 80 % macht jetzt die KI. Bei EY haben wir einen vollständigen KYC-Prototypen in einer Stunde erstellt – inklusive regulatorischer Anforderungen. Die KI hat das Tool gebaut, getestet, Fehler gelistet und iterativ verbessert. Früher hätte das ein Startup und zwei Jahre gebraucht.",
+        "index": 5
+      },
+      {
+        "id": "adrian-ott-6",
+        "talkSlug": "adrian-ott",
+        "text": "Token-Kosten sind die neue Unternehmenskennzahl. Bei einem KI-Training mit einem voll agentischen System haben wir für 2'000 Franken Tokens aufgebraucht – in sehr kurzer Zeit. Der NVIDIA-CEO sagt: In Zukunft wird nicht nur das Gehalt wichtig sein, sondern auch, wie viele Tokens ein Mitarbeiter verwenden darf. Das macht eine klare Governance notwendig: Wem geben wir diese Tools? Wie kontrollieren wir die Kosten?",
+        "index": 6
+      },
+      {
+        "id": "adrian-ott-7",
+        "talkSlug": "adrian-ott",
+        "text": "Mein Rat an Führungskräfte: Benutzt diese Modelle selbst – auch wenn es mal nicht klappt. Nur durch eigene Erfahrung findet ihr heraus, was funktioniert. Schafft klare Strukturen: Welche KI darf wie genutzt werden? Wie kontrollieren wir die Kosten? Und gebt euren besten Engineers echten Freiraum. OpenAI sperrt ihre besten Researcher so ein, dass sie keine PowerPoint-Slides machen müssen. In der Schweiz wird das zu kurzfristig gedacht – Engineers werden zu Reportern statt zu Innovatoren.",
+        "index": 7
+      }
+    ]
   }
 ]
