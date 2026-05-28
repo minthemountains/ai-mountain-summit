@@ -6,7 +6,7 @@ import ChatDrawer from "@/components/ChatDrawer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI Mountain Summit 2025 — Erkenntnisse & Insights",
+  title: "AI Mountain Summit 2026 — Erkenntnisse & Insights",
   description: "Die wichtigsten Erkenntnisse der AI Mountain Summit Keynotes in Laax, Schweiz – durchsuchbar und per KI erkundbar.",
 };
 

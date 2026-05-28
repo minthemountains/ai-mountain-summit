@@ -30,7 +30,7 @@ export default function Home() {
       <header className="text-center mb-12">
         <div className="inline-flex items-center gap-2 bg-amber-50 text-amber-700 text-sm font-medium px-4 py-1.5 rounded-full mb-6 border border-amber-200">
           <span>🏔️</span>
-          <span>Laax, Schweiz · 2025</span>
+          <span>Laax, Schweiz · 2026</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-bold text-stone-800 leading-tight mb-4">
           AI Mountain Summit
@@ -94,7 +94,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="mt-16 text-center text-stone-400 text-xs">
-        <p>AI Mountain Summit 2025 · Laax, Schweiz · Powered by Claude</p>
+        <p>AI Mountain Summit 2026 · Laax, Schweiz · Powered by Claude</p>
       </footer>
     </main>
   );
