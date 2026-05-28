@@ -333,5 +333,94 @@
         "index": 12
       }
     ]
+  },
+  {
+    "slug": "pascal-kaufmann",
+    "speaker": "Pascal Kaufmann",
+    "title": "Der Brain Code: Warum echte KI noch nicht existiert – und warum die Schweiz führen könnte",
+    "tagline": "Solange andere glauben, das Hirn sei ein Computer, besteht unsere Chance darin, das Prinzip der Intelligenz wirklich zu knacken.",
+    "summary": "Pascal Kaufmann – Hirnforscher, Präsident des Global AI Awards und Gründer des AI-Instituts Lear 42 in Davos – hält eine provokante These: Was wir heute als «Künstliche Intelligenz» bezeichnen, hat mit Intelligenz nichts zu tun. GPT ist eine dynamische Bibliothek, die Wissen rekombiniert – beeindruckend nützlich, aber kein Denkapparat. Echte Intelligenz liegt im menschlichen Gehirn, dem letzten unentdeckten Territorium der Wissenschaft – dem «Brain Code». Wer dieses Prinzip einmal versteht, so wie Leonardo da Vinci das Flügelprofil als Prinzip des Fluges erkannte, könnte energieeffiziente echte Intelligenz bauen und damit Nvidia obsolet machen. Die Schweiz hat dazu die besten Voraussetzungen: weltweit höchste Talentdichte im AI-Bereich, Zürichs Google-, IBM- und Disney-Forschungszentren, und die einzigartige Ressource Vertrauen in regulierten Märkten. Der einzige Schwachpunkt: Die Schweiz kann nicht verkaufen.",
+    "insights": [
+      "Was heute als KI gilt, ist keine Intelligenz – es ist Statistik mit schnelleren Computern. GPT ist eine dynamische Bibliothek, die Wissen rekombiniert und neu zusammensetzt. Ein Kind erkennt eine Katze nach einem einzigen Blick; GPT braucht 300 Millionen Bilder.",
+      "Das Gehirn ist das letzte 'Uncharted Territory' der Wissenschaft. Wer den 'Brain Code' knackt – das grundlegende Prinzip der Intelligenz – kann echte KI bauen, so wie Leonardo da Vinci das Flügelprofil als das Prinzip des Fluges erkannte, ohne Federn oder Knochen nachzubauen.",
+      "Kreativität ist Rekombination: Alles, was wir als 'neu' bezeichnen, ist das neue Zusammensetzen bestehender Bausteine – auch Newtons Gesetze. GPT beherrscht dieses Rekombinieren im globalen Massstab und vergisst dabei nie etwas, was es einmal gelernt hat.",
+      "Die Schweiz hat die weltweit höchste Talentdichte im AI-Bereich. Zürich beherbergt die Forschungszentren von Google, IBM und Disney. Die Kernautoren des Transformer-Papers – der Basis von ChatGPT – stammen alle aus Europa.",
+      "Schweizs stärkste KI-Karte ist Vertrauen ('Trust'): In regulierten Märkten – Gesundheit, Kindesschutz, Kernkraft, Behörden – ist chinesische und amerikanische KI gesetzlich ausgeschlossen. Dort kann die neutrale Schweiz vertrauenswürdige KI-Lösungen anbieten und exportieren.",
+      "Statt riesiger Rechenzentren sollte die Schweiz auf 'Small Algorithms' setzen – energieeffiziente Architekturen, die auf dem echten Prinzip der Intelligenz basieren. Das menschliche Gehirn läuft mit einer Schokolade; kein Atomkraftwerk nötig.",
+      "Talente neu definiert: Klassische Bildung und Faktenwissen verlieren an Wert. Gefragt sind soziale Kompetenz, Lesefähigkeit, Empathie und die Fähigkeit, die richtigen Fragen zu stellen – Dinge, die Maschinen noch schwer können."
+    ],
+    "quotes": [
+      "Solange die Chinesen und die Amerikaner das Gefühl haben, dass zwischen den Ohren ein Computer steckt, mache ich mir keine Sorgen, dass wir dieses Rennen verlieren – weil das ist etwas ganz anderes.",
+      "KI steht für mich für 'krasse Situation' – das hat nichts mit Intelligenz zu tun. Was ich empfehle: AI als 'Amazing Innovation' übersetzen.",
+      "Unser Hirn funktioniert mit einer Schokolade und bringt Leistungen, die kein Atomkraftwerk zustande bringt. Die GPT-Maschinenbauer glauben, das hier sei irgendwie eine Statistikmaschine."
+    ],
+    "chunks": [
+      {
+        "id": "pascal-kaufmann-0",
+        "talkSlug": "pascal-kaufmann",
+        "text": "Pascal Kaufmann ist Hirnforscher, Präsident des globalen AI Awards und Gründer des AI-Instituts Lear 42 in Davos – eines der grössten AI-Labs der Welt. Er hält einen freien Vortrag ohne Folien in einem Breakout-Format. Kaufmann ist skeptisch gegenüber dem Begriff 'Künstliche Intelligenz': Er bevorzugt 'Amazing Innovation' oder 'Krasse Situation'. Seine Kernthese: Was wir heute als KI bezeichnen, hat nichts mit echtem Denken zu tun – es ist Statistik mit schnelleren Computern.",
+        "index": 0
+      },
+      {
+        "id": "pascal-kaufmann-1",
+        "talkSlug": "pascal-kaufmann",
+        "text": "Kaufmann forschte vor 25 Jahren an der Northwestern University und Harvard an Gehirnen in künstlichem Blut, am Leben gehalten für bis zu zwei Wochen. Er inserierte Drähte direkt in diese Gehirne und verband sie mit Robotern – einer der ersten Cyborg-Versuche weltweit. Sein Fazit aus dieser Arbeit: Wir haben keine Ahnung, wie das Gehirn wirklich funktioniert. Es ist ein totales Mystery.",
+        "index": 1
+      },
+      {
+        "id": "pascal-kaufmann-2",
+        "talkSlug": "pascal-kaufmann",
+        "text": "GPT ist keine Intelligenz – es ist eine dynamische Bibliothek. Es nimmt das gesamte Wissen der Menschheit, zerstückelt es und kombiniert es in Echtzeit neu. Das ist nützlich, aber kein Denken. Ein Kind erkennt eine Katze nach einem einzigen Blick; GPT braucht 300 Millionen Bilder. Echte Intelligenz und Big Data / Deep Learning haben nichts miteinander zu tun. Wer Berater trifft, die 'Big Data' und 'Deep Learning' pitchen, sollte skeptisch sein.",
+        "index": 2
+      },
+      {
+        "id": "pascal-kaufmann-3",
+        "talkSlug": "pascal-kaufmann",
+        "text": "Wir machen seit Jahrhunderten denselben Fehler: Wir vergleichen das Gehirn mit der dominanten Maschine unserer Zeit. Vor 400 Jahren hiess es 'das Hirn ist wie ein Uhrenwerk'. Heute sagen wir 'das Hirn funktioniert wie ein Computer – wir müssen es nur schneller machen'. Das ist falsch. Solange Chinesen und Amerikaner das Gehirn als Computer betrachten, sieht Kaufmann keine Gefahr, dass die Schweiz dieses Rennen verliert.",
+        "index": 3
+      },
+      {
+        "id": "pascal-kaufmann-4",
+        "talkSlug": "pascal-kaufmann",
+        "text": "Kreativität ist Rekombination: Newton erfand keine neuen Gesetze aus dem Nichts – er sortierte vorhandenes Wissen neu. Alles, was wir als 'neu' bezeichnen, ist das neue Zusammensetzen bestehender Bausteine. Die Natur besteht aus 123 Elementen – ein Lego-Baukasten. GPT kann dieses Rekombinieren im globalen Massstab und vergisst dabei nie etwas. Das macht GPT zu einem mächtigen Innovationswerkzeug, obwohl es keine echte Kreativität im tiefen Sinne ist.",
+        "index": 4
+      },
+      {
+        "id": "pascal-kaufmann-5",
+        "talkSlug": "pascal-kaufmann",
+        "text": "Der 'Brain Code' ist das letzte unentdeckte Territorium. Wie Leonardo da Vinci das Flügelprofil als Prinzip des Fluges erkannte – unabhängig davon, ob Federn, Knochen oder Metall dran sind – brauchen wir das Prinzip der Intelligenz. Wer es knackt, kann effiziente kleine Algorithmen bauen statt energiehungrige Rechenzentren. Das menschliche Gehirn erbringt mit dem Energieäquivalent einer Schokolade Leistungen, die kein Atomkraftwerk hinbekommt.",
+        "index": 5
+      },
+      {
+        "id": "pascal-kaufmann-6",
+        "talkSlug": "pascal-kaufmann",
+        "text": "Kaufmann gründete Lear 42 in Davos mit der Mindfire-Stiftung, um weltweit die top 1000 AI-Talente zu kartografieren und zu vernetzen. Sein System schickt schwierige Forschungsfragen automatisiert an die drei weltweit kompetentesten Menschen – mit 3-Minuten-Timer. Das ist ein Real-Time-Know-how-Netzwerk aus 100.000 Spitzenforschern. Mit diesem Netzwerk hat er AI-Labs ausgerüstet und weiss tagesaktuell, wer weltweit was im AI-Bereich macht.",
+        "index": 6
+      },
+      {
+        "id": "pascal-kaufmann-7",
+        "talkSlug": "pascal-kaufmann",
+        "text": "Die Schweiz hat die weltweit höchste Talentdichte im AI-Bereich. Zürich beherbergt Forschungszentren von Google, IBM, Disney und anderen Weltkonzernen. Wichtiger noch: Die Kernautoren des Transformer-Papers ('Attention is All You Need') – die Basis von ChatGPT – stammen fast alle aus Europa. ChatGPT kommt zu grossen Teilen aus der Schweiz. Aber: Die Schweiz kann nicht verkaufen und vermarkten. Das ist ihr grösster Schwachpunkt.",
+        "index": 7
+      },
+      {
+        "id": "pascal-kaufmann-8",
+        "talkSlug": "pascal-kaufmann",
+        "text": "Schweizs stärkste KI-Karte ist Vertrauen. In hochregulierten Bereichen – Psychiatrie, Kindesschutz, Kernkraftwerke, Behörden, Spitäler – ist chinesische und amerikanische KI gesetzlich ausgeschlossen. Die Schweiz als neutrale Vertrauensmacht kann dort sichere, trustable AI-Lösungen anbieten und nach Europa exportieren. Trust wird zu einer der wenigen Währungen, die von der Schweiz aus explodieren können.",
+        "index": 8
+      },
+      {
+        "id": "pascal-kaufmann-9",
+        "talkSlug": "pascal-kaufmann",
+        "text": "In der Frage-und-Antwort-Runde erklärt Kaufmann sein persönliches AI-Setup: Er trägt bei schwierigen Verhandlungen und Meetings ein modernes Hörgerät von Sonova, das mit seinem AI-System verbunden ist. Bei schwierigen Fragen bekommt er die Antwort direkt ins Ohr geflüstert. Sein Leitsatz: Für Entscheidungen sollte man jedoch keiner KI alleine vertrauen – Menschen sind dazu da, die richtigen Fragen zu stellen; die KI löst sie. Die menschliche Kernkompetenz ist das Fragen, nicht das Antworten.",
+        "index": 9
+      },
+      {
+        "id": "pascal-kaufmann-10",
+        "talkSlug": "pascal-kaufmann",
+        "text": "Talente werden neu definiert: Klassische Bildung und Faktenwissen verlieren an Wert – das kann GPT besser. Was Menschen heute wertvoll macht: soziale Kompetenz, Lesefähigkeit, Empathie, die Fähigkeit zuzuhören und die richtigen Fragen zu stellen. Kaufmann sagt, er suche keine klassisch ausgebildeten Experten mehr, sondern kompetente Menschen, die jemanden lesen können und in jeder Situation präsent sind. In diesem Sinne definiert KI das Profil des begehrten Talents grundlegend neu.",
+        "index": 10
+      }
+    ]
   }
 ]
