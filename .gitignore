@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# root-level transcript PDFs (canonical copies live in transcripts/)
+/Transcript*.pdf
+
+# claude plans
+.claude/plans/

@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Mountain Summit — Insights Tool
 
-## Getting Started
+A public web tool for exploring key insights from AI Mountain Summit keynotes. Visitors can browse talk summaries, read insights and quotes, and ask questions about any talk using AI.
 
-First, run the development server:
+## Setup
+
+### 1. Add your Anthropic API key
+
+```bash
+cp .env.local.example .env.local
+# Edit .env.local and add your key
+```
+
+### 2. Add transcript files
+
+Drop raw `.txt` transcription files into the `transcripts/` folder. Name them after the speaker:
+
+```
+transcripts/
+  sam-altman.txt
+  yann-lecun.txt
+  ...
+```
+
+### 3. Process transcripts
+
+```bash
+npm run process
+```
+
+This calls Claude to generate summaries, key insights, quotes, and stores everything in `data/talks.json`. Run it again whenever you add new transcripts.
+
+### 4. Start the dev server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deploying to Vercel
 
-## Learn More
+1. Push this repo to GitHub
+2. Import it in [Vercel](https://vercel.com/new)
+3. Add `ANTHROPIC_API_KEY` as an environment variable
+4. Deploy
 
-To learn more about Next.js, take a look at the following resources:
+The chat feature streams responses via a serverless API route — no additional infrastructure needed.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## How it works
 
-## Deploy on Vercel
+- **Ingestion** (`scripts/process.ts`): Reads transcript files, calls Claude Haiku to extract structured data, chunks text for retrieval
+- **Retrieval** (`lib/retrieval.ts`): TF-IDF cosine similarity search over transcript chunks — no vector DB required
+- **Chat** (`app/api/chat/route.ts`): Finds relevant chunks, sends them as context to Claude, streams the response
+- **Pages**: Home (insights + talk cards), Talk page (summary + insights + quotes + inline chat), floating global chat
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Stack
+
+Next.js 16 · TypeScript · Tailwind CSS · Claude API (Haiku) · Vercel

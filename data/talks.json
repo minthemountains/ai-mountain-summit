@@ -1,0 +1,163 @@
+[
+  {
+    "slug": "reto-gurtner",
+    "speaker": "Reto Gurtner",
+    "title": "KI und Digitalisierung: Was Laax schon früh richtig gemacht hat",
+    "tagline": "Daten kennen keine politischen Grenzen – wer früh investiert, bleibt vorn.",
+    "summary": "Reto Gurtner, CEO der Weisse Arena Gruppe, blickt auf eine Pioniergeschichte zurück: Schon in den 80er Jahren betrieb Laax die erste Website der Schweiz – gehostet in New York, weil es hierzulande keinen Provider gab. Mit einer 128-kB-Standleitung für 43'000 Franken im Monat und dem ersten Internetcafé im Skigebiet legte Laax früh die Basis für eine digitale Unternehmenskultur. Heute integriert Gurtner KI tief in Geschäftsprozesse: von der Administration über die Kundenkommunikation bis hin zu KI-Agents. Entscheidend ist für ihn dabei der konkrete Nutzen – entweder für den Kunden oder das Unternehmen. Wer nur einen neuen Trend mitmacht, ohne klaren Mehrwert, steigt schnell wieder aus.",
+    "insights": [
+      "Frühzeitig in Digitalisierung investieren schafft Glaubwürdigkeit und Wettbewerbsvorteile – Laax hatte schon in den 80ern die erste Website der Schweiz.",
+      "KI entfaltet ihren Wert erst, wenn sie konkreten Nutzen stiftet – entweder für den Kunden oder das eigene Unternehmen. Ohne klaren Mehrwert lohnt sich der Einsatz nicht.",
+      "Die Vielfalt der KI-Plattformen (DeepSeek, ChatGPT, Google etc.) ist ein Vorteil: Wer mehrere nutzt, schützt sich vor Monopolabhängigkeit und kann für spezifische Anwendungen die beste Lösung wählen.",
+      "KI als virtueller Berater: Reto Gurtner fragt bei unsicheren Entscheidungen seinen «virtuellen Einstein» – ein Rollenspiel, das unterschiedliche Perspektiven und historisches Wissen einbringt.",
+      "Daten kennen keine politischen Grenzen: Auch wenn die Globalisierung politisch unter Druck steht, fliessen Daten weiterhin global – ein strategischer Vorteil für datengetriebene Unternehmen.",
+      "KI-Agents lassen sich tief in Automatisierungsprozesse einbetten und nehmen repetitive Aufgaben ab – von der Buchhaltung bis zur Datenpflege.",
+      "Konsumenten werden täglich von Informationen überflutet. KI kann helfen, die Aufmerksamkeit der richtigen Zielgruppe gezielt zu gewinnen – durch smarte Communitys und personalisierte Angebote."
+    ],
+    "quotes": [
+      "Wir hatten die erste lx.com-Seite – und wir haben in der Schweiz keinen Provider gefunden. Die erste Laax-Website war gehostet in New York.",
+      "Daten haben keine politischen Grenzen. Auch wenn die Globalisierung politisch als tot gilt – die Daten sagen das Gegenteil.",
+      "Wenn es keinen Nutzen hat – weder für den Kunden noch für mich – dann steige ich einfach aus."
+    ],
+    "chunks": [
+      {
+        "id": "reto-gurtner-0",
+        "talkSlug": "reto-gurtner",
+        "text": "Schon weit bevor überhaupt über KI im heutigen Ausmaß gesprochen wurde, hat Laax schon auf die Digitalisierung gesetzt und sie sehr früh als Teil des Geschäftsmodells verstanden. Wir hatten die erste Laax-Website – und wir haben in der Schweiz keinen Provider gefunden. Die erste lx.com war gehostet in New York. Das war eine Zeit, wo ich in Amerika studieren konnte. Ich wollte unbedingt eine Page aufbauen.",
+        "index": 0
+      },
+      {
+        "id": "reto-gurtner-1",
+        "talkSlug": "reto-gurtner",
+        "text": "Wir haben damals eine Standleitung von der PTT bekommen – 128 kB, für 43'000 Franken pro Monat. Ich habe ein Internetcafé gemacht, das erste Internetcafé im Skigebiet, damit die Kids surfen konnten. Und somit sind wir da reingekommen – das hat uns einen Teil der Glaubwürdigkeit gegeben.",
+        "index": 1
+      },
+      {
+        "id": "reto-gurtner-2",
+        "talkSlug": "reto-gurtner",
+        "text": "Der richtige Quantensprung war danach die Laax App, die wir entwickelt haben. Da haben wir verschiedene Preise gewonnen. Weil wir wollten alle auf die Kundendaten zugreifen können. Wenn ich weiß, was dein Verhalten ist, kann ich dir maßgeschneiderte Angebote machen.",
+        "index": 2
+      },
+      {
+        "id": "reto-gurtner-3",
+        "talkSlug": "reto-gurtner",
+        "text": "Das Schöne ist, dass es nicht nur eine Plattform gibt – es gibt DeepSeek, es gibt ChatGPT, es gibt dann eben innerhalb von Google. Das finde ich gut, weil das diese Monopolisierung verhindert. Man kann diese Algorithmen für sich selber für ganz spezifische Anwendungen nutzen.",
+        "index": 3
+      },
+      {
+        "id": "reto-gurtner-4",
+        "talkSlug": "reto-gurtner",
+        "text": "Im Endeffekt geht es um den Nutzen: Es kann einen Nutzen für den Kunden haben oder einen Nutzen für mich haben – dann steige ich einfach aus, wenn das nicht der Fall ist. Bei der Administration wird KI enorm helfen – Buchhalter werden in Zukunft weniger gebraucht. Es geht darum, wo ich die Rohdaten direkt verarbeiten kann, anstatt über sieben Umwege.",
+        "index": 4
+      },
+      {
+        "id": "reto-gurtner-5",
+        "talkSlug": "reto-gurtner",
+        "text": "Wir haben 9 Milliarden Konsumenten auf der Welt und der überwiegende Teil hat heute ein Mobilgerät – das ist wichtiger als das Portemonnaie. Wie kann ich Aufmerksamkeit generieren? Wir werden dermassen von Informationen überschüttet. KI kann helfen, intelligentere Lösungen zu machen – Communities zu bilden, die richtigen Zielgruppen anzusprechen.",
+        "index": 5
+      },
+      {
+        "id": "reto-gurtner-6",
+        "talkSlug": "reto-gurtner",
+        "text": "Wie sehr vertraust du der KI? Man muss sich schon noch checken. Wo ich nicht sicher bin, frage ich meinen virtuellen Einstein. Was wäre die Meinung von Albert Einstein? Er hat enorm viele Informationen – wie würde der das beurteilen aus seiner Perspektive? Das hilft enorm.",
+        "index": 6
+      },
+      {
+        "id": "reto-gurtner-7",
+        "talkSlug": "reto-gurtner",
+        "text": "Daten haben keine politischen Grenzen. Politisch gilt die Globalisierung vielleicht als tot – aber die Daten sagen das Gegenteil. Das ist ein strategischer Vorteil für datengetriebene Unternehmen. Wenn man extrem viel liest, versuche ich heute ein Buch zuerst mit KI zu analysieren – mit konkreten Fragen: Wie spiegelt das unsere Werte wider? Dann gehe ich in die Tiefe.",
+        "index": 7
+      }
+    ]
+  },
+  {
+    "slug": "marc-holitscher",
+    "speaker": "Marc Holitscher",
+    "title": "Von der KI-Adoption zur KI-Transformation: Vier Dimensionen des Wandels",
+    "tagline": "Intelligenz ist auf Abruf verfügbar – die Differenzierung liegt im Wie, nicht im Ob.",
+    "summary": "Marc Holitscher zeigt, dass die Schweiz bei der KI-Adoption stark ist – 60 % der Unternehmen mit KI-Einsatz sehen konkreten Nutzen. Doch isolierte Use Cases reichen nicht mehr: Die nächste Phase erfordert die tiefe Verankerung von KI im Betriebsmodell. Anhand realer Beispiele – vom KI-Chatbot Florina der RHW über die KI-gestützte Schichtplanung im Kantonsspital Luzern bis zur vollautomatisierten Marktanalyse bei Arfox – zeigt er, wie führende Unternehmen KI entlang von vier Dimensionen einsetzen: Produktivität, Kundenengagement, Prozessautomatisierung und Geschäftsmodellinnovation. Den Abschluss bildet das E-Bike-Bild: KI ist wie ein E-Bike für den Geist – leistungsstark, aber der Mensch bleibt am Steuer.",
+    "insights": [
+      "60 % der Schweizer Unternehmen, die KI einsetzen, sehen konkreten Nutzen – die Adoption funktioniert, doch isolierte Anwendungsfälle skalieren nicht.",
+      "Die nächste Phase ist die tiefe Integration: KI muss im Betriebsmodell verankert sein, nicht als Einzelfall-Experiment existieren.",
+      "Wettbewerbsdifferenzierung entsteht nicht durch Produktivitätstools wie Copilot, sondern durch die Neugestaltung von Geschäftsprozessen und Wertschöpfung mit KI-Agents.",
+      "KI-Agents arbeiten autonom: Sie verstehen Kontext, empfehlen Handlungen und führen diese eigenständig aus – die Aufgabe des Menschen verlagert sich von der Ausführung zur Zieldefinition und Überwachung.",
+      "Praktisches Beispiel WSP: Ein Agent generiert zehntausende Designvorschläge für Gebäude, ein anderer prüft Regulierungen, ein dritter koordiniert Lieferanten – das Team delegiert, statt auszuführen.",
+      "Die Schlüsselkompetenz der Zukunft ist Intimität mit dem eigenen Geschäftsmodell: Wer die Hebelpunkte kennt, wo KI den größten Mehrwert schafft, gewinnt.",
+      "Kritisches Denken, emotionale Intelligenz und vernetztes Denken werden durch KI nicht überflüssig – sie werden wichtiger, weil Menschen das Zielbild setzen und die Maschine steuern.",
+      "KI ist wie ein E-Bike: Es verstärkt menschliche Fähigkeiten enorm – aber man muss es bedienen können, und man ist und bleibt die Fahrerin."
+    ],
+    "quotes": [
+      "Wir sind heute in der Lage, wo Intelligenz quasi auf Abruf verfügbar ist. Die Differenzierung findet statt über die Art und Weise, wie die Zusammenarbeit mit den Maschinen organisiert wird.",
+      "Wir müssen Arbeit – das Zusammenspiel von Mensch und Technologie – nicht weniger als neu erfinden.",
+      "Steve Jobs hat gesagt, der Computer ist wie ein Fahrrad, aber für den Geist. Ich würde sagen: heute vielleicht eher ein E-Bike. Aber man ist der Fahrer – man steuert."
+    ],
+    "chunks": [
+      {
+        "id": "marc-holitscher-0",
+        "talkSlug": "marc-holitscher",
+        "text": "Von diesen Unternehmen, welche KI brauchen, sind 60 % der Meinung, dass es ihnen einen konkreten Nutzen bringt und wollen das auch noch intensivieren. Die Adoption in der Breite funktioniert in der Schweiz sehr gut. Die Übersetzung von neuen Technologien präzise und schnell in die praktische Anwendung ist eine der Kernstärken der Schweiz.",
+        "index": 0
+      },
+      {
+        "id": "marc-holitscher-1",
+        "talkSlug": "marc-holitscher",
+        "text": "Einige Anwendungsfälle: Die RHW hat auf ihrer Website einen Chatbot eingerichtet – Florina. Sie bekommt sehr viele Anfragen von Touristinnen und Touristen, häufig in der Nacht und in anderen Sprachen. Florina spart den Mitarbeiterinnen bis zu 70 % des Aufwands und ermöglicht es, Zeit in Wertschöpfungsaktivitäten zu investieren.",
+        "index": 1
+      },
+      {
+        "id": "marc-holitscher-2",
+        "talkSlug": "marc-holitscher",
+        "text": "Das Kantonsspital Luzern setzt generative KI für die Planung der Mitarbeiterschichten des Pflegepersonals ein. Wenn jemand ausfällt, geht alles von vorne los. Indem sie das automatisieren konnten, sparen sie zwei Drittel der verlorenen Zeit und können bei Patienten auf der Pflegestation einen viel größeren Impact leisten.",
+        "index": 2
+      },
+      {
+        "id": "marc-holitscher-3",
+        "talkSlug": "marc-holitscher",
+        "text": "Ein Ofenbauer baut seit 48 Jahren wunderbare Specksteinöfen. Das gesamte Wissen ist in seinem Kopf – nie aufgeschrieben. Er wird bald pensioniert. Wenn dieser Herr in seiner natürlichen Sprache mit einer Maschine spricht und erzählt, was den Kern seiner Arbeit ausmacht, kann die Maschine dieses Wissen konsolidieren und jüngeren Nachfolgerinnen über die natürliche Sprachschnittstelle wieder zugänglich machen.",
+        "index": 3
+      },
+      {
+        "id": "marc-holitscher-4",
+        "talkSlug": "marc-holitscher",
+        "text": "Wir bewegen uns auf eine zweite Phase zu: Wie können wir KI tief im Betriebsmodell einer Firma verankern? Wie kann man die Wertschöpfung konsequent durch die Linse der KI neu denken? Das führt dazu, dass ganz neue Themen relevant werden: Governance, Change Management, Kultur, Führungslogik.",
+        "index": 4
+      },
+      {
+        "id": "marc-holitscher-5",
+        "talkSlug": "marc-holitscher",
+        "text": "Technologieintensität ist Adoption multipliziert mit Vertrauen. Nur weil etwas technologisch möglich ist, heißt das noch lange nicht, dass es gesellschaftlich oder kommerziell wünschbar ist. Die entscheidende Kompetenz in der zweiten Phase ist eine hohe Intimität mit dem eigenen Geschäftsmodell.",
+        "index": 5
+      },
+      {
+        "id": "marc-holitscher-6",
+        "talkSlug": "marc-holitscher",
+        "text": "Vorreiterfirmen durchleuchten jeden Schritt in ihrer Wertschöpfung durch die Linse der KI. ABB hat Genix gebaut – eine Plattform, die Kerndaten industrieller Fertigungsprozesse über eine Sprachschnittstelle zugänglich macht, sowohl für Maschinenbediener als auch im Boardroom. UBS rüstet Mitarbeitende mit Copilot aus und stellt mit UBSan institutionelles Wissen für Kundenberater bereit. Arfox hat den gesamten Marktanalyseprozess über eine Architektur von Agenten automatisiert.",
+        "index": 6
+      },
+      {
+        "id": "marc-holitscher-7",
+        "talkSlug": "marc-holitscher",
+        "text": "Die Firma WSP denkt den gesamten Designprozess der Gebäudekonstruktion neu: Ein Agent generiert zehntausende Designvorschläge – Sonneneinschreibung, CO2-Verbrauch, Statik. Ein weiterer prüft Regulierungen und Sicherheitsanforderungen automatisiert. Bei Anomalien wird es automatisiert an den Agenten weitergespielt, der Lieferantenbeziehungen betreut. Die Rolle der Ingenieurin verändert sich fundamental: Sie definiert das Zielbild, delegiert Aufgaben und überwacht das Resultat.",
+        "index": 7
+      },
+      {
+        "id": "marc-holitscher-8",
+        "talkSlug": "marc-holitscher",
+        "text": "Die vier Dimensionen der KI-Transformation: Erstens Produktivität – digitale Assistenten für alle Mitarbeitenden. Zweitens Kundenengagement – Zielgruppen präziser und zeitkritischer ansprechen. Drittens Prozessautomatisierung – KI-Agents in Geschäftsprozessen. Viertens Geschäftsmodellinnovation – KI als Teil der DNA. Die ersten beiden differenzieren kaum noch, die echte Wettbewerbsdifferenzierung entsteht in der zweiten Hälfte.",
+        "index": 8
+      },
+      {
+        "id": "marc-holitscher-9",
+        "talkSlug": "marc-holitscher",
+        "text": "Ein Professor an der Universität Stanford hat das Bild vom Chief Question Officer geprägt – jemand, der es sich zur Aufgabe macht, den Status Quo konstant zu hinterfragen: durch die Linse der künstlichen Intelligenz, und wo KI an welchen Hebelpunkten am besten integriert werden kann, damit Wertschöpfung entsteht. Vernetzte Denken und emotionale Intelligenz werden genauso wichtig sein wie technische Fähigkeiten.",
+        "index": 9
+      },
+      {
+        "id": "marc-holitscher-10",
+        "talkSlug": "marc-holitscher",
+        "text": "Wir sind heute in der Lage, wo Intelligenz quasi auf Abruf verfügbar ist. Die Differenzierung findet nicht mehr über den Zugang zur Technologie statt, sondern über die Art und Weise, wie die Zusammenarbeit mit den Maschinen organisiert wird. Steve Jobs hat gesagt, der Computer ist wie ein Fahrrad für den Geist. Heute ist es vielleicht ein E-Bike. Aber man ist der Fahrer – man steuert.",
+        "index": 10
+      }
+    ]
+  }
+]
