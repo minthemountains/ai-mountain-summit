@@ -40,8 +40,13 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# root-level transcript PDFs (canonical copies live in transcripts/)
+# root-level transcript PDFs and slide images (canonical copies live in transcripts/)
 /Transcript*.pdf
+/*.pdf
+/*.HEIC
+/*.jpg
+/*.jpeg
+/*.png
 
 # claude plans
 .claude/plans/
