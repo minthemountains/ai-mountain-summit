@@ -422,5 +422,76 @@
         "index": 10
       }
     ]
+  },
+  {
+    "slug": "michael-braendle",
+    "speaker": "Michael Brändle",
+    "title": "Der Agentic Shift: Warum 88% der KI-Piloten scheitern – und wie autonome Agenten echten Wert schaffen",
+    "tagline": "Wer KI prozessorientiert denkt, bleibt im Pilot stecken. Echte Wertschöpfung entsteht erst, wenn Agenten für Ergebnisse verantwortlich sind.",
+    "summary": "Michael Brändle von Amazon zeigt, warum 88% der KI-Piloten nie in die Produktion kommen: Unternehmen stecken in der «Pilot Trap» fest, weil sie KI prozessorientiert statt ergebnisorientiert einsetzen. An konkreten Beispielen – einer Schweizer Bank und einer Versicherung – illustriert er den Unterschied zwischen inkrementeller Effizienz und transformativem Wandel. Echte Wertschöpfung entsteht erst mit dem Agentic Shift: Agenten, die autonom entscheiden, Kontext erinnern, echte Aktionen ausführen und mit eingebauter Compliance operieren. Brändle erklärt die vier Bausteine jedes Agenten (Reasoning, Tools, Memory, Guardrails) und zeigt, wie sich die Rolle der Mitarbeitenden von der Execution zur Governance verschiebt. Bei Amazon ist dieser Shift bereits Realität – Development Agents generieren, testen und patchen Code autonom. Sein Appell: Noch heute die Erfolgskriterien definieren und den ersten Agenten bauen.",
+    "insights": [
+      "88% der KI-Piloten scheitern in der «Pilot Trap»: Sie kommen nie in die Produktion, weil Unternehmen KI auf bestehende Prozesse aufsetzen, statt das transformative Potenzial zu nutzen. Inkrementelle Effizienz ist nicht dasselbe wie strategischer Mehrwert.",
+      "Die Anatomie eines Agenten besteht aus vier Bausteinen: Reasoning (logisches Planen, kein festes Skript), Tools/Actions (echte Aktionen wie Buchungen und Zahlungen), Memory/Kontext (Erinnerung an Präferenzen und RAG für Firmenwissen) und Guardrails (eingebaute Compliance, jede Entscheidung dokumentiert).",
+      "Process-first vs. Outcome-first: Beim prozessorientierten Ansatz hilft der Agent dem Menschen, effizienter zu sein. Beim Agentic Shift ist der Agent für das Ergebnis verantwortlich – z.B. Bearbeitungszeit um 40% senken und 80% der Entscheidungen autonom treffen.",
+      "Organisationswandel von Execution zu Governance: Mitarbeitende trainieren, überwachen und steuern Agenten, anstatt Aufgaben selbst auszuführen. Compliance wird kein Prozessschritt mehr, sondern ein Architektur-Feature, das direkt in den Agenten eingebaut ist.",
+      "Institutionelles Wissen wird demokratisiert: Im Agenten-Layer ist Wissen nicht mehr an ein, zwei Personen gebunden, sondern steht allen Mitarbeitenden zur Verfügung. Der Wettbewerbsvorteil liegt künftig in der Qualität der implementierten Fähigkeiten, nicht mehr allein in der individuellen Expertise.",
+      "Der Agentic Shift ist bei Amazon bereits Realität: Development Agents generieren Code auf Basis von Produktmanager-Anforderungen, testen ihn, führen Penetrationstests durch und reviewen ihn. Security Agents erkennen Schwachstellen und patchen sie autonom – kontinuierlich und ohne menschliches Zutun.",
+      "Praktischer Einstieg in drei Schritten: Excellence-Kriterien definieren (woran messen Sie Erfolg?), ersten Agenten mit dem Team bauen, testen und iterieren. Wer auf Perfektion wartet, verpasst die Lernkurve."
+    ],
+    "quotes": [
+      "88% der Piloten schaffen es immer noch nicht in die Produktion – wir stecken in der Pilot Trap. Und das liegt daran, dass wir fundamental anders über die Technologie nachdenken müssen.",
+      "Die Governance wird ein Architektur-Feature. Compliance ist eingebaut in den Agenten und wird überwacht von anderen Agenten.",
+      "Definieren Sie die Excellence-Kriterien. Bauen Sie Ihren ersten Agenten. Funktioniert es? Bauen Sie weiter. Wenn nicht, haben Sie schnell gelernt."
+    ],
+    "chunks": [
+      {
+        "id": "michael-braendle-0",
+        "talkSlug": "michael-braendle",
+        "text": "Michael Brändle von Amazon stellt fest: 88% der KI-Piloten scheitern in der sogenannten 'Pilot Trap'. Die Unternehmen kommen nicht über die Pilotphase hinaus und können die neue Technologie nicht in die Produktion bringen. Zwei Beispiele zeigen warum: Eine Schweizer Bank migrierte ihren Chatbot auf ein Frontier-LLM – etwas schneller, etwas agiler, aber immer noch kein autonomes Entscheiden, kein Kontextgedächtnis, keine proaktiven Empfehlungen. Eine Versicherung implementierte einen Assistenten für den Schadensprozess – effizientere Information, aber kein transformativer Mehrwert.",
+        "index": 0
+      },
+      {
+        "id": "michael-braendle-1",
+        "talkSlug": "michael-braendle",
+        "text": "Die Anatomie eines KI-Agenten besteht aus vier Bausteinen. Erstens: Reasoning – der Agent kann logisch denken, planen und seine Strategie anpassen. Er folgt keinem festen Skript. Zweitens: Tools und Actions – der Agent kann nicht nur Informationen zurückgeben, sondern echte Aktionen ausführen wie Buchungen, Payments oder Hotelbuchungen. Drittens: Memory und Kontext – er erinnert sich an vergangene Interaktionen und Präferenzen, und kann über RAG (Retrieval Augmented Generation) auf Firmenwissen zugreifen. Viertens: Guardrails – er hat eingebaute Grenzen, braucht z.B. für hohe Zahlungen eine zweite Genehmigung, und jede Entscheidung wird dokumentiert.",
+        "index": 1
+      },
+      {
+        "id": "michael-braendle-2",
+        "talkSlug": "michael-braendle",
+        "text": "Der Agentic Shift bedeutet: fundamentales Umdenken. Bei der digitalen Transformation ging es darum, Prozesse zu digitalisieren und KI/LLMs zu integrieren. Das hat seinen Wert. Aber der volle Benefit entsteht erst, wenn man Technologie neu denkt. Der Chief Question Officer muss fragen: Was bieten die Agenten unseren Kunden oder Mitarbeitern? Es geht nicht um Technologie an sich oder marginale Effizienz – sondern darum, wie neue Services und Kundenerlebnisse geschaffen werden können, die vorher nicht möglich waren.",
+        "index": 2
+      },
+      {
+        "id": "michael-braendle-3",
+        "talkSlug": "michael-braendle",
+        "text": "Process-first vs. Outcome-first: Beim prozessorientierten Ansatz hilft der Agent dem Menschen, effizienter zu sein. Beim Agentic Shift denkt man von der anderen Seite: Der Agent ist verantwortlich für das Outcome. Beispiel Claims Management: Der Agent ist verantwortlich dafür, dass die Bearbeitungszeit um 40% sinkt, dass 80% der Entscheidungen autonom getroffen werden und dass er diese Fähigkeiten kontinuierlich dazulernt und umsetzt. Erfolgreiche Kundenprojekte schauen die Technologie aus genau dieser Perspektive an.",
+        "index": 3
+      },
+      {
+        "id": "michael-braendle-4",
+        "talkSlug": "michael-braendle",
+        "text": "Die Organisation verändert sich grundlegend: von Execution zu Governance. Mitarbeitende werden in Zukunft Agenten trainieren, überwachen, steuern und wenn nötig stoppen. In Banken, die heute als Prozessorganisationen funktionieren, wird Compliance nicht mehr über Prozessdefinitionen sichergestellt – sondern als Architektur-Feature direkt in den Agenten eingebaut. Die Agenten werden von anderen Agenten und teilweise von Mitarbeitenden überwacht. Das institutionelle Wissen hängt nicht mehr an ein, zwei Schlüsselpersonen, sondern ist im Agenten-Layer breit verfügbar.",
+        "index": 4
+      },
+      {
+        "id": "michael-braendle-5",
+        "talkSlug": "michael-braendle",
+        "text": "Need-to-know gilt auch für Agenten: Genau wie Mitarbeitende nur auf die Daten zugreifen, die sie für ihre Aufgabe brauchen, gilt dasselbe für Agenten. Ein Agent hat einen definierten Task und bekommt nur den dafür notwendigen Datenzugriff. Wettbewerbsvorteil liegt nicht mehr primär in der Expertise einzelner Personen, sondern in der Qualität der Skills, die im Agenten implementiert werden – und in der Implementierungsgeschwindigkeit.",
+        "index": 5
+      },
+      {
+        "id": "michael-braendle-6",
+        "talkSlug": "michael-braendle",
+        "text": "Bei Amazon ist der Agentic Shift bereits Realität in der Softwareentwicklung: Development Agents generieren Code basierend auf Produktmanager-Anforderungen, testen diesen Code, führen Penetrationstests durch und machen Code Reviews – alles über KI. Security Agents überwachen Software-Applikationen, erkennen Schwachstellen, priorisieren sie und patchen sie direkt – autonom und kontinuierlich. DevOps-Agenten implementieren das Prinzip 'You build it, you run it' vollautomatisch. Das ist die Softwareindustrie heute – und es ist nur eine Frage der Zeit, bis das auf alle Business-Prozesse übergreift.",
+        "index": 6
+      },
+      {
+        "id": "michael-braendle-7",
+        "talkSlug": "michael-braendle",
+        "text": "Brändles Call to Action: Zurück im Unternehmen sofort starten. Erstens: Excellence-Kriterien definieren – woran messen Sie den Erfolg des Agenten konkret? Zweitens: Ersten Agenten mit dem Team bauen. Funktioniert es? Weiterbauen. Funktioniert es nicht? Haben Sie schnell gelernt. Drittens: Nächsten Test aufsetzen. Wer auf Perfektion wartet, verpasst die Lernkurve. Iteratives Vorgehen mit klaren Messgrößen ist der Schlüssel, um aus der Pilot Trap herauszukommen.",
+        "index": 7
+      }
+    ]
   }
 ]
