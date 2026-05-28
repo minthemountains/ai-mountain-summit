@@ -231,5 +231,107 @@
         "index": 7
       }
     ]
+  },
+  {
+    "slug": "sascha-lobo",
+    "speaker": "Sascha Lobo",
+    "title": "KI als Veränderungsprozess: Was Führungskräfte wirklich wissen müssen",
+    "tagline": "Selbst wer sich perfekt vorbereitet, kann von der KI-Entwicklung massiv überrascht werden.",
+    "summary": "Sascha Lobo – Kolumnist beim Spiegel und KI-Erklärer per Podcast – hält seinen Vortrag per Videozuschaltung (familiärer Notfall verhindert die Anreise). Er nimmt zwei oder drei Schritte Abstand von der reinen Technologieperspektive und analysiert KI als umfassenden Veränderungsprozess. Anhand konkreter Beispiele – dem gescheiterten Kartenzeichnen von GPT-5, dem AlphaGo/AlphaZero-Durchbruch und dem Google-Schockmoment Ende 2022 – zeigt er, warum selbst perfekt vorbereitete Unternehmen von der KI-Entwicklung überrascht werden können. Für DACH-Führungskräfte leitet er daraus drei Kernforderungen ab: eine Kultur des Ausprobierens entwickeln, den internen KI-Tüftergeist fördern statt bremsen, und das eigene Domänenwissen als entscheidenden Wettbewerbsvorteil erkennen. Sein Schluss: Die negativen Folgen der KI-Transformation kommen von alleine – für die positiven muss man aktiv arbeiten.",
+    "insights": [
+      "Die 'Gezackte Grenze' (Jagged Frontier): KI-Fähigkeiten sind extrem ungleichmässig. Dieselbe KI meistert eine Aufgabe mit Bravour und scheitert bei einer sehr ähnlichen vollständig. Die Leistung hängt immer von Lerndaten, Kontext (Prompt) und dem präzisen Modell ab.",
+      "Selbst Google – mit 15 Jahren Vorbereitung, vierstelligen Milliarden-Investitionen und Nobelpreisträger-Forschern – wurde Ende 2022 von ChatGPT kalt erwischt und musste Code Red ausrufen. Keine noch so gründliche Vorbereitung schützt vor KI-Überraschungen.",
+      "AlphaZero schlug AlphaGo (trainiert auf 30 Mio. menschlichen Top-Spielzügen) mit 100:0 – obwohl AlphaZero keinerlei menschliches Erfahrungswissen hatte. Die Lektion: Menschen neigen dazu, den Wert ihrer eigenen Erfahrung massiv zu überschätzen.",
+      "Europas Wettbewerbsvorteil liegt in 'Domänenwissen × KI': interne Unternehmensdaten und Branchenwissen, die nicht im Internet stehen. Diese Kombination ist schwer kopierbar und Europas beste Antwort auf US- und China-KI.",
+      "Die Präzisions- und Perfektionskultur der Schweiz und DACH ist in der KI-Transformation eine Bremse. Führungskräfte müssen eine Kultur des Ausprobierens und des 'Voranzuscheiterns' entwickeln – 80%-Lösungen sind akzeptabel, wenn sie schnelles Lernen ermöglichen.",
+      "Shadow AI ist Realität: 60–78% der Schweizer Mitarbeitenden nutzen KI informell bei der Arbeit, viele ohne Wissen der Führung. Unternehmen müssen offizielle KI-Sandboxen schaffen – sonst passiert es unkontrolliert mit Firmendaten.",
+      "KI-Suche folgt anderen Regeln als Google: Laut MIT-Studie bevorzugen KI-Suchmaschinen 'Earned Media' (Drittquellen, autoritative Berichterstattung) deutlich stärker als marken-eigene Inhalte. Sichtbarkeit in KI-Antworten muss neu erarbeitet werden.",
+      "Die negativen Folgen jeder Transformation kommen von alleine. Die positiven Folgen der KI-Transformation – Effizienz, Innovation, neue Möglichkeiten – müssen aktiv und gemeinsam erarbeitet werden."
+    ],
+    "quotes": [
+      "Selbst wenn wir uns perfekt vorbereiten, selbst wenn wir alles darüber wissen, sogar wenn wir in unserer Branche den KI-Fortschritt selbst mitbringen wie Google – selbst dann können wir von der Entwicklung von künstlicher Intelligenz massiv überrascht werden.",
+      "Alpha Zero hat mit gar keinen menschlichen Erfahrungsdaten Alpha Go besiegt – das System mit 3000 Jahren menschlicher Erfahrungsdaten. Hundert zu null. Der Mensch spielt Go seit 3000 Jahren und hat dieses Spiel immer noch nicht verstanden.",
+      "Die negativen Folgen von jeder Transformation kommen von ganz alleine. Aber die guten Folgen der KI-Transformation – für die müssen wir gemeinsam intensiv arbeiten."
+    ],
+    "chunks": [
+      {
+        "id": "sascha-lobo-0",
+        "talkSlug": "sascha-lobo",
+        "text": "Sascha Lobo hält seinen Vortrag per Videozuschaltung, da seine Frau im neunten Monat schwanger ist und gesundheitliche Komplikationen eine Anreise verhinderten. Er erklärt, sein Beitrag soll KI nicht nur als Technologie, sondern als umfassenden Veränderungsprozess beleuchten – mit besonderem Fokus auf die Leadership-Perspektive. Er beginnt mit dem 7. August 2025, dem Tag der Vorstellung von GPT-5, auf den viele KI-Enthusiasten gewartet hatten wie auf eine Erlösungstechnologie. Sam Altman hatte GPT-5 als 'das iPhone der künstlichen Intelligenz' bezeichnet.",
+        "index": 0
+      },
+      {
+        "id": "sascha-lobo-1",
+        "talkSlug": "sascha-lobo",
+        "text": "Am Tag der GPT-5-Vorstellung testete Lobo das Modell sofort mit einer einfachen Aufgabe: eine Deutschlandkarte mit Bundesländern zeichnen. Das Ergebnis der 'machtvollsten KI der Welt' war verheerend – falsche Bundesländer, falsche Positionen. Wochen später wiederholte er den Test für die Schweiz mit ChatGPT 4.5: die Städte waren kaum lesbar, die Positionen ungenau. Beim Konkurrenten Grok von Elon Musk war das Ergebnis noch schlimmer: Frankreich verrutschte in die Schweiz, Luzern und Basel an falschen Stellen, Liechtenstein fehlte ganz – obwohl es explizit angefordert worden war.",
+        "index": 1
+      },
+      {
+        "id": "sascha-lobo-2",
+        "talkSlug": "sascha-lobo",
+        "text": "Hinter den vielen verschiedenen Fehlleistungen der KI bei scheinbar einfachen Aufgaben steckt ein wichtiges Muster: die 'Gezackte Grenze' oder 'Jagged Frontier'. Die Grenzen von KI sind sehr schwer abschätzbar. Eine Aufgabe, die KI mit Meisterhaftigkeit erfüllt, lässt sich fantastisch in Prozesse integrieren. Eine sehr ähnlich erscheinende Aufgabe wird von der KI vollständig versagt. Diese gezackte Grenze ist ein wiederkehrendes Problem. Deshalb gilt im KI-Kontext: Es kommt auf die Lerndaten, auf den Kontext (Prompt und Grundanweisungen) und auf das präzise Modell an.",
+        "index": 2
+      },
+      {
+        "id": "sascha-lobo-3",
+        "talkSlug": "sascha-lobo",
+        "text": "Gleichzeitig mit dem Landkartenversagen gab es in anderen Bereichen gigantische KI-Fortschritte: GPT-5 und Google Gemini gewannen erstmals Goldmedaillen bei der Internationalen Mathematik-Olympiade – obwohl die Aufgaben extra so gestellt wurden, dass KI sie möglichst nicht lösen kann. Das zeigt: KI hat sehr unterschiedliche Fähigkeiten, die sich nicht so entwickelt haben, wie Menschen es erwartet haben. Für Führungskräfte bedeutet das: Man muss auf mehreren Ebenen verstehen, was KI kann und wie sie sich weiterentwickelt.",
+        "index": 3
+      },
+      {
+        "id": "sascha-lobo-4",
+        "talkSlug": "sascha-lobo",
+        "text": "Lobo analysiert Google als das Unternehmen, das sich am besten auf den KI-Wandel vorbereitet hatte: über 15 Jahre, vierstellige Milliardensummen investiert, eigene KI-Chips gebaut (als einziges Unternehmen), die klügsten Köpfe geholt – darunter fünf der Nobelpreisträger 2024 in Physik und Chemie. CEO Sundar Pichai sagte schon 2018: 'Künstliche Intelligenz ist wichtiger als Feuer oder Elektrizität.' Google war mit allem Geld, allen Köpfen und der höchsten Führungsunterstützung perfekt auf den KI-Wandel vorbereitet.",
+        "index": 4
+      },
+      {
+        "id": "sascha-lobo-5",
+        "talkSlug": "sascha-lobo",
+        "text": "Und trotzdem: Als Ende 2022 ChatGPT vorgestellt wurde, sah sich das perfekt vorbereitete Google gezwungen, innerhalb weniger Tage 'Code Red' auszurufen – ihr Geschäftsmodell war im Innersten bedroht. Das ist die wichtigste Erkenntnis über den KI-Wandel aus Führungsperspektive: Selbst wenn man sich perfekt vorbereitet, selbst wenn man den KI-Fortschritt in der eigenen Branche selbst mitbringt wie Google, kann man von der Entwicklung der KI massiv überrascht werden. Das ist ein fundamentaler Unterschied zu früheren Transformationen wie Internet, Mobile oder Social Media, bei denen Fachleute 2-4 Jahre im Voraus die Richtung erahnen konnten.",
+        "index": 5
+      },
+      {
+        "id": "sascha-lobo-6",
+        "talkSlug": "sascha-lobo",
+        "text": "Das AlphaGo-Beispiel von 2016 illustriert eine der wichtigsten KI-Erkenntnisse: Menschen neigen dazu, sich und den Wert ihrer Erfahrung zu überschätzen. AlphaGo lernte aus 30 Millionen menschlichen Top-Spielzügen und schlug den Go-Weltmeister 4:1. Dann kam AlphaZero: kein menschliches Erfahrungswissen, nur die Regeln von Go, zwei KIs spielen 29 Millionen Mal gegeneinander. Ergebnis: AlphaZero schlug AlphaGo 100:0. Der Mensch spielt Go seit 3000 Jahren und hat das Spiel offenbar immer noch nicht vollständig verstanden. Für Führungskräfte bedeutet das: Arbeitsprozesse und Produkte daraufhin untersuchen, wo KI einen 100:0-Sieg erzielen könnte.",
+        "index": 6
+      },
+      {
+        "id": "sascha-lobo-7",
+        "talkSlug": "sascha-lobo",
+        "text": "Für Europa und besonders den DACH-Raum sieht Lobo eine konkrete Chance: 'Domänenwissen × KI'. KI kombiniert mit Daten und Wissen, das nicht im Internet steht – branchenspezifisches internes Wissen, das Jahrzehnte aufgebaut wurde. Das ist Europas Antwort auf US- und China-KI. Gleichzeitig muss sich die Präzisions- und Perfektionskultur der Schweiz wandeln: Sorgfalt bedeutet Langsamkeit, aber in der KI-Transformation ist schnelles Ausprobieren überlebenswichtig. Es braucht eine Kultur des Ausprobierens – zufrieden sein mit 80%-Lösungen, wenn man damit schnell herausfinden kann, was funktioniert.",
+        "index": 7
+      },
+      {
+        "id": "sascha-lobo-8",
+        "talkSlug": "sascha-lobo",
+        "text": "Shadow AI ist ein massives Phänomen: In Deutschland nutzen rund 60% der Büromitarbeitenden KI, aber die meisten davon ohne offizielle Einführung durch den Arbeitgeber – informell, mit Firmendaten, ohne dass Vorgesetzte es wissen. In der Schweiz bringen 75-78% der KI-Nutzer ihre eigenen Tools mit zur Arbeit, die Hälfte davon informell ohne Wissen der Führung. ChatGPT hat 2024 sogar versehentlich private Chats öffentlich zugänglich gemacht. Unternehmen müssen offizielle KI-Sandboxen schaffen – sonst geschieht es unkontrolliert. Das ist der stärkste Treiber, die KI-Transformation aktiv zu gestalten statt abzuwarten.",
+        "index": 8
+      },
+      {
+        "id": "sascha-lobo-9",
+        "talkSlug": "sascha-lobo",
+        "text": "Eine MIT-Studie zeigt, dass 95% der Generative-AI-Pilotprojekte in Unternehmen scheitern. Der Hauptgrund ist der 'Learning Gap' in zwei Dimensionen: erstens fehlende oder falsche Daten, mit denen die KI-Instrumente lernen sollen; zweitens unzureichende Aus- und Weiterbildung der Mitarbeitenden. Wer statt eigener Entwicklung spezialisierte Partnertools einsetzt, steigert die Erfolgsquote von 5% auf 67%. China hat das verstanden: Seit 2018 gibt es KI als Pflichtfach in Highschools, seit September 2025 sogar bis in die Grundschule. Das Gelingen der KI-Transformation ist zuvorderst eine Bildungsfrage.",
+        "index": 9
+      },
+      {
+        "id": "sascha-lobo-10",
+        "talkSlug": "sascha-lobo",
+        "text": "KI verändert auch die Sichtbarkeit von Unternehmen fundamental: Eine Studie vom September 2025 (arXiv) zeigt, dass KI-Suchmaschinen wie ChatGPT, Perplexity und Gemini stark 'Earned Media' bevorzugen – also Drittquellen und autoritative externe Inhalte – gegenüber Markeninhalten. Das ist das Gegenteil von klassischer Google-SEO. Gleichzeitig verschmilzt die App-Economy mit KI: ChatGPT kann bei einer Nutzeranfrage direkt eine passende App vorschlagen und einbinden – wer in diesen KI-Antworten nicht vorkommt, verliert Sichtbarkeit und Kundenakquise.",
+        "index": 10
+      },
+      {
+        "id": "sascha-lobo-11",
+        "talkSlug": "sascha-lobo",
+        "text": "KI beschleunigt jeden anderen technologischen Fortschritt dramatisch – am deutlichsten sichtbar in der Robotik. Ein Video vom September 2024 zeigt einen Roboter in einer Manufakturumgebung, die vorher nicht automatisierbar schien. Im Mai 2025 war die Motorik bereits auf einem völlig anderen Level. Im Januar 2026 zeigte ein chinesischer Roboter einen Roundhouse-Kick. Elon Musk prognostiziert 10 Milliarden Roboter zu je 20.000-25.000 Dollar in 14 Jahren; Morgan Stanley sieht einen 5-Billionen-Dollar-Markt. Wer jetzt keine KI+Robotik-Strategie entwickelt, wird von der Transformation von hinten überrollt.",
+        "index": 11
+      },
+      {
+        "id": "sascha-lobo-12",
+        "talkSlug": "sascha-lobo",
+        "text": "Als Abschlussakkord formuliert Lobo die zentrale Führungsaufgabe: Unternehmen brauchen eine einheitliche, nach innen und aussen kommunizierbare KI-Erzählung. Junge Generationen (Gen Z, Millennials) nutzen ChatGPT als Lebensberater und werden nicht in Unternehmen zurückfallen wollen, die keine KI-Kultur haben. Führungskräfte von heute sind möglicherweise die letzte Generation, die rein menschliche Workforces führt. Das AI Leadership – KI-Agenten ebenso zu führen wie Menschen – wird zur Kernkompetenz. Und der entscheidende Leitsatz: Die negativen Folgen der KI-Transformation kommen von alleine. Die positiven müssen aktiv erarbeitet werden.",
+        "index": 12
+      }
+    ]
   }
 ]
