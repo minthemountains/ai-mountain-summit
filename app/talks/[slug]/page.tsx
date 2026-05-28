@@ -39,15 +39,26 @@ export default async function TalkPage({ params }: PageProps) {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8 pb-24">
-      <Link
-        href="/"
-        className="inline-flex items-center gap-1 text-stone-400 hover:text-stone-600 text-sm mb-8 transition-colors"
-      >
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-        Alle Keynotes
-      </Link>
+      <div className="flex items-center justify-between mb-8">
+        <Link
+          href="/"
+          className="inline-flex items-center gap-1 text-stone-400 hover:text-stone-600 text-sm transition-colors"
+        >
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+          Alle Keynotes
+        </Link>
+        <a
+          href="#chat"
+          className="inline-flex items-center gap-2 bg-amber-50 hover:bg-amber-100 text-amber-700 text-sm font-medium px-3 py-1.5 rounded-full border border-amber-200 transition-colors"
+        >
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+          </svg>
+          KI befragen
+        </a>
+      </div>
 
       {/* Speaker header */}
       <header className="mb-10">
@@ -98,7 +109,7 @@ export default async function TalkPage({ params }: PageProps) {
       )}
 
       {/* Per-talk chat */}
-      <section>
+      <section id="chat">
         <h2 className="text-lg font-semibold text-stone-700 mb-4">Zum Vortrag befragen</h2>
         <div className="bg-white rounded-2xl border border-stone-100 shadow-sm h-[400px] flex flex-col">
           <ChatInterface talkSlug={slug} />
