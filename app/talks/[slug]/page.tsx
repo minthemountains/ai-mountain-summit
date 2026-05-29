@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import QuoteBlock from "@/components/QuoteBlock";
 import ChatInterface from "@/components/ChatInterface";
 import talksData from "@/data/talks.json";
@@ -63,8 +64,19 @@ export default async function TalkPage({ params }: PageProps) {
       {/* Speaker header */}
       <header className="mb-10">
         <div className="flex items-center gap-4 mb-6">
-          <div className="w-16 h-16 rounded-full bg-brand-100 flex items-center justify-center text-stone-700 font-bold text-lg flex-shrink-0">
-            {initials}
+          <div className="w-16 h-16 rounded-full bg-brand-100 flex items-center justify-center text-stone-700 font-bold text-lg flex-shrink-0 overflow-hidden">
+            <Image
+              src={`/speakers/${talk.slug}.jpg`}
+              alt={talk.speaker}
+              width={64}
+              height={64}
+              className="w-full h-full object-cover"
+              onError={(e) => {
+                const target = e.currentTarget as HTMLImageElement;
+                target.style.display = "none";
+                target.parentElement!.innerHTML = `<span class="text-stone-700 font-bold text-lg">${initials}</span>`;
+              }}
+            />
           </div>
           <div>
             <p className="text-stone-500 text-sm">Speaker / Referent</p>

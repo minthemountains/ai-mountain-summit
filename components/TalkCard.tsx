@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 interface TalkCardProps {
   slug: string;
@@ -16,12 +17,25 @@ export default function TalkCard({ slug, speaker, title, tagline, insightCount }
     .slice(0, 2)
     .toUpperCase();
 
+  const photoSlug = slug;
+
   return (
     <Link href={`/talks/${slug}`} className="group block">
       <div className="bg-white rounded-2xl p-6 shadow-sm border border-stone-100 hover:shadow-md hover:border-brand-200 transition-all duration-200 h-full flex flex-col">
         <div className="flex items-start gap-4 mb-4">
-          <div className="w-12 h-12 rounded-full bg-brand-100 flex items-center justify-center text-stone-700 font-semibold text-sm flex-shrink-0">
-            {initials}
+          <div className="w-12 h-12 rounded-full bg-brand-100 flex items-center justify-center text-stone-700 font-semibold text-sm flex-shrink-0 overflow-hidden">
+            <Image
+              src={`/speakers/${photoSlug}.jpg`}
+              alt={speaker}
+              width={48}
+              height={48}
+              className="w-full h-full object-cover"
+              onError={(e) => {
+                const target = e.currentTarget as HTMLImageElement;
+                target.style.display = "none";
+                target.parentElement!.innerHTML = `<span class="text-stone-700 font-semibold text-sm">${initials}</span>`;
+              }}
+            />
           </div>
           <div>
             <p className="font-semibold text-stone-800 leading-tight">{speaker}</p>
