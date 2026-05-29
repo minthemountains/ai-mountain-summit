@@ -51,7 +51,7 @@ export default async function TalkPage({ params }: PageProps) {
         </Link>
         <a
           href="#chat"
-          className="inline-flex items-center gap-2 bg-amber-50 hover:bg-amber-100 text-amber-700 text-sm font-medium px-3 py-1.5 rounded-full border border-amber-200 transition-colors"
+          className="inline-flex items-center gap-2 bg-brand-50 hover:bg-brand-100 text-stone-700 text-sm font-medium px-3 py-1.5 rounded-full border border-brand-200 transition-colors"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
@@ -63,7 +63,7 @@ export default async function TalkPage({ params }: PageProps) {
       {/* Speaker header */}
       <header className="mb-10">
         <div className="flex items-center gap-4 mb-6">
-          <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center text-amber-700 font-bold text-lg flex-shrink-0">
+          <div className="w-16 h-16 rounded-full bg-brand-100 flex items-center justify-center text-stone-700 font-bold text-lg flex-shrink-0">
             {initials}
           </div>
           <div>
@@ -74,7 +74,7 @@ export default async function TalkPage({ params }: PageProps) {
         <h1 className="text-3xl sm:text-4xl font-bold text-stone-800 leading-snug mb-3">
           {talk.title}
         </h1>
-        <p className="text-amber-700 font-medium text-lg">{talk.tagline}</p>
+        <p className="text-stone-600 font-medium text-lg">{talk.tagline}</p>
       </header>
 
       {/* Summary */}
@@ -89,7 +89,7 @@ export default async function TalkPage({ params }: PageProps) {
         <ul className="space-y-3">
           {talk.insights.map((insight, i) => (
             <li key={i} className="flex gap-3">
-              <span className="w-6 h-6 rounded-full bg-amber-100 text-amber-700 text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">
+              <span className="w-6 h-6 rounded-full bg-brand-400 text-stone-900 text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">
                 {i + 1}
               </span>
               <p className="text-stone-700 leading-relaxed">{insight}</p>

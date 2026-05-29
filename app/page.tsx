@@ -40,7 +40,7 @@ export default function Home() {
     <main className="max-w-3xl mx-auto px-4 py-10 pb-24">
       {/* Header */}
       <header className="text-center mb-12">
-        <div className="inline-flex items-center gap-2 bg-amber-50 text-amber-700 text-sm font-medium px-4 py-1.5 rounded-full mb-6 border border-amber-200">
+        <div className="inline-flex items-center gap-2 bg-brand-50 text-stone-700 text-sm font-medium px-4 py-1.5 rounded-full mb-6 border border-brand-200">
           <span>🏔️</span>
           <span>Laax, Schweiz · 2026</span>
         </div>

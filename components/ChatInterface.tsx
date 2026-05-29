@@ -104,7 +104,7 @@ export default function ChatInterface({ talkSlug, placeholder }: ChatInterfacePr
             <div
               className={`max-w-[85%] rounded-2xl px-4 py-3 text-sm leading-relaxed ${
                 msg.role === "user"
-                  ? "bg-amber-600 text-white rounded-br-sm"
+                  ? "bg-brand-400 text-stone-900 rounded-br-sm"
                   : "bg-stone-100 text-stone-700 rounded-bl-sm"
               }`}
             >
@@ -128,13 +128,13 @@ export default function ChatInterface({ talkSlug, placeholder }: ChatInterfacePr
           onKeyDown={handleKeyDown}
           placeholder={defaultPlaceholder}
           rows={1}
-          className="flex-1 resize-none rounded-xl border border-stone-200 px-4 py-3 text-sm text-stone-700 placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-transparent"
+          className="flex-1 resize-none rounded-xl border border-stone-200 px-4 py-3 text-sm text-stone-700 placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-brand-400 focus:border-transparent"
           style={{ maxHeight: "120px" }}
         />
         <button
           onClick={send}
           disabled={!input.trim() || loading}
-          className="bg-amber-600 hover:bg-amber-700 disabled:opacity-40 text-white rounded-xl p-3 transition-colors flex-shrink-0"
+          className="bg-brand-400 hover:bg-brand-700 disabled:opacity-40 text-stone-900 rounded-xl p-3 transition-colors flex-shrink-0"
         >
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />

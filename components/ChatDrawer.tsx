@@ -10,7 +10,7 @@ export default function ChatDrawer() {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="fixed bottom-6 right-6 bg-amber-600 hover:bg-amber-700 text-white rounded-full shadow-lg w-14 h-14 flex items-center justify-center transition-all z-40 group"
+        className="fixed bottom-6 right-6 bg-brand-400 hover:bg-brand-700 text-stone-900 rounded-full shadow-lg w-14 h-14 flex items-center justify-center transition-all z-40 group"
         aria-label="KI befragen"
       >
         <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
