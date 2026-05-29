@@ -12,14 +12,26 @@ interface Talk {
   quotes: string[];
 }
 
+const speakerRoles: Record<string, string> = {
+  "reto-gurtner": "President, Weisse Arena Gruppe",
+  "marc-holitscher": "National Technology Officer, Microsoft Switzerland",
+  "adrian-ott": "Chief AI Officer, EY Switzerland",
+  "adrian-ott-breakout": "Chief AI Officer, EY Switzerland",
+  "sascha-lobo": "Digital Strategist & AI Expert",
+  "pascal-kaufmann": "Founder, AlpineAI",
+  "michael-braendle": "Head of Technology Financial Services ALPS, AWS",
+  "wolf-lotter": "Business Journalist & Knowledge Economy Expert",
+  "marco-andrea-buchmann": "Head of Applied Science, Zalando Tech Hub Zurich",
+};
+
 export default function Home() {
   const talks = talksData as Talk[];
 
-  const featuredInsights: Array<{ insight: string; speaker: string; talkSlug: string }> = [];
+  const featuredInsights: Array<{ insight: string; speaker: string; role?: string; talkSlug: string }> = [];
   for (const talk of talks) {
     const picked = talk.insights.slice(0, 1);
     for (const insight of picked) {
-      featuredInsights.push({ insight, speaker: talk.speaker, talkSlug: talk.slug });
+      featuredInsights.push({ insight, speaker: talk.speaker, role: speakerRoles[talk.slug], talkSlug: talk.slug });
     }
     if (featuredInsights.length >= 6) break;
   }
@@ -64,6 +76,7 @@ export default function Home() {
                     key={i}
                     insight={item.insight}
                     speaker={item.speaker}
+                    role={item.role}
                     talkSlug={item.talkSlug}
                   />
                 ))}
