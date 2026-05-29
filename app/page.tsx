@@ -37,7 +37,7 @@ export default function Home() {
   }
 
   return (
-    <main className="max-w-3xl mx-auto px-4 py-10 pb-24">
+    <main className="max-w-5xl mx-auto px-4 py-10 pb-24">
       {/* Header */}
       <header className="text-center mb-12">
         <div className="inline-flex items-center gap-2 bg-brand-50 text-stone-700 text-sm font-medium px-4 py-1.5 rounded-full mb-6 border border-brand-200">
@@ -70,7 +70,7 @@ export default function Home() {
               <h2 className="text-xl font-semibold text-stone-700 mb-4">
                 Top-Erkenntnisse
               </h2>
-              <div className="space-y-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {featuredInsights.map((item, i) => (
                   <InsightCard
                     key={i}
