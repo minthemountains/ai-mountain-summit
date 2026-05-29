@@ -94,7 +94,18 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="mt-16 text-center text-stone-400 text-xs">
-        <p>AI Mountain Summit 2026 · Laax, Schweiz · Powered by Claude</p>
+        <p>
+          AI Mountain Summit 2026 · Laax, Schweiz · Vibe coded by{' '}
+          <a
+            href="https://www.linkedin.com/in/michael-eberle-digital/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-stone-600 underline underline-offset-2 transition-colors"
+          >
+            Michael Eberle
+          </a>{' '}
+          during the conference
+        </p>
       </footer>
     </main>
   );
