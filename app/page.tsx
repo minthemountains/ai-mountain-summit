@@ -22,6 +22,7 @@ const speakerRoles: Record<string, string> = {
   "michael-braendle": "Head of Technology Financial Services ALPS, AWS",
   "wolf-lotter": "Business Journalist & Knowledge Economy Expert",
   "marco-andrea-buchmann": "Head of Applied Science, Zalando Tech Hub Zurich",
+  "sina-wulfmeyer": "Chief Data Officer, Unique AI",
 };
 
 export default function Home() {
