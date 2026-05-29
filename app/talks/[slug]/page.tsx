@@ -102,7 +102,7 @@ export default async function TalkPage({ params }: PageProps) {
         <section className="mb-10">
           <h2 className="text-lg font-semibold text-stone-700 mb-4">Bemerkenswerte Zitate</h2>
           {talk.quotes.map((quote, i) => (
-            <QuoteBlock key={i} quote={quote} speaker={talk.speaker} />
+            <QuoteBlock key={i} quote={quote} speaker={talk.speaker} talkSlug={talk.slug} />
           ))}
         </section>
       )}
