@@ -564,5 +564,76 @@
         "index": 7
       }
     ]
+  },
+  {
+    "slug": "wolf-lotter",
+    "speaker": "Wolf Lotter",
+    "title": "Digitale Erwachsene: Warum KI uns zwingt, endlich als Wissensgesellschaft zu denken",
+    "tagline": "KI ist keine Bedrohung für menschliche Intelligenz – sie zwingt uns, sie endlich ernsthaft zu nutzen.",
+    "summary": "Wolf Lotter – Journalist, Buchautor («Zusammenhänge») und langjähriger Computerjournalist mit 40 Jahren Erfahrung in Technologie-Hypes – hält einen gesellschaftsphilosophischen Vortrag. Er beginnt mit einem echten Einstein-Zitat von 1930: Die Gesellschaft sollte sich schämen, die Wunder der Wissenschaft zu nutzen, ohne sie geistig zu erfassen – und behauptet: 2026 gilt dasselbe. Wir leben und arbeiten immer noch wie in einer Fabrikgesellschaft, obwohl die Transformation zur Wissensgesellschaft längst begonnen hat. KI ist kein Technologieproblem, sondern ein Erkenntnisproblem. Sie zwingt uns, endlich «digital erwachsen» zu werden – in Zusammenhängen zu denken, Kontext zu verstehen und echte Wissensarbeit zu leisten statt automatisierter Dummheit zu produzieren.",
+    "insights": [
+      "Ein echtes Einstein-Zitat von 1930 (Eröffnung des Berliner Rundfunks) gilt 2026 unverändert: «Die Gesellschaft sollte sich schämen, die Wunder der Wissenschaft zu nutzen und nicht mehr davon geistig erfasst zu haben als eine Kuh, die mit Wohlbehagen Gras frisst.» Die meisten LinkedIn-Einstein-Zitate sind fake – dieses ist echt.",
+      "Wir sind eine Fabrikgesellschaft, die vorgibt, eine Wissensgesellschaft zu sein: Morgens um neun ins Büro, um fünf zurück – das ist Schichtbetrieb aus der Fabrik. Die Arbeitsorganisation folgt immer noch den Regeln der industriellen Revolution. Die Transformation zur Wissensgesellschaft hat längst begonnen, aber Social- und Arbeitsordnung haben nicht mitgemacht.",
+      "KI zwingt uns zu denken – und schärft damit die natürliche Intelligenz: KI ist Teil der Automatisierung, wie die Waschmaschine. Sie emanzipiert uns von stupider Arbeit und Informationsflut. Die Trennung von Mensch und Maschine ist künstlich – unser Werkzeug ist Teil von uns. Die Technologie ist nur der Handlanger. Die Sinnstifte sind wir.",
+      "Automatisierte Dummheit ist die grösste Gefahr der KI-Ära: Wissen bleibt die wichtigste Ressource. «Automatisierte Dummheit» – Bürokratie, Überregulierung, das Verbieten von Dingen, die man nicht versteht – ist das eigentliche Risiko. Die EU reguliert KI, bevor sie versteht, was sie reguliert. Das ist die Bürokratie als Automatismus.",
+      "Effizienz vs. Effektivität ist die entscheidende Unterscheidung: Manager tun die Dinge richtig (Effizienz). Führungskräfte tun die richtigen Dinge (Effektivität) – Peter Drucker. Wer in der Wissensgesellschaft nur optimiert, was schon immer getan wurde, sitzt im Hamsterrad: etwas besser bezahlt, etwas attraktiver – aber immer noch ein Hamsterrad.",
+      "Das Gehirn braucht Ruhe – besonders Hochbegabte: Harvard-Experiment: Hochbegabte Studierende, die während einer Prüfung durch Geräusche (Gläser, Trompeten, Klatschen) gestört wurden, schnitten unglaublich schlecht ab. Durchschnittliche Studierende kaum schlechter als sonst. Aktionismus, Meeting-Tsunamis und ständige Unterbrechung sind strukturelle Feinde von Wissensarbeit.",
+      "Kontext ist das, was Wissen produktiv macht: Der Begriff «Zusammenhang» (Titel seines Buchs) ist das Kernprinzip. Spezialisierung ohne Querverbindungen ist maschinell ersetzbar. Die wertvollsten Menschen im KI-Zeitalter sind jene, die kritisch zweifeln, hinterfragen und die richtigen Fragen stellen – die «nervigen» Leute, die alles in Frage stellen. Wir brauchen mehr davon, nicht weniger."
+    ],
+    "quotes": [
+      "Die KI zwingt uns dazu, dass wir denken. Sie zwingt uns geradezu dazu, dass die natürliche Intelligenz wieder schärfer wird.",
+      "Automatisierte Dummheit muss vermieden werden. Das grösste Problem in der EU-Diskussion: Man reguliert, bevor man das Ding hat. Die automatisierte Dummheit ist die Bürokratie.",
+      "Die Trennung von Mensch und Maschine ist völlig ratifiziert. Unser Werkzeug ist Teil von uns. Die Technologie ist nur der Handlanger. Die Sinnstifte sind wir."
+    ],
+    "chunks": [
+      {
+        "id": "wolf-lotter-0",
+        "talkSlug": "wolf-lotter",
+        "text": "Wolf Lotter ist Journalist und Buchautor mit 40 Jahren Erfahrung als Computerjournalist. Er hat viele Technologie-Hypes auf- und absteigen gesehen. Seine Einstiegsthese: Wir sind als Gesellschaft noch nicht «digital erwachsen» – nicht nur als Techniker, sondern als Gesellschaft insgesamt. Er eröffnet mit einem echten Einstein-Zitat von 1930 (Eröffnung des Berliner Rundfunks): Die Gesellschaft sollte sich schämen, die Wunder der Wissenschaft zu nutzen, ohne sie geistig zu erfassen – nicht mehr als eine Kuh, die Gras frisst. Lotter: 2026 gilt dasselbe.",
+        "index": 0
+      },
+      {
+        "id": "wolf-lotter-1",
+        "talkSlug": "wolf-lotter",
+        "text": "Die Transformation von der Industriegesellschaft zur Wissensgesellschaft hat längst begonnen – aber die meisten merken es nicht. Unsere Sozialordnung, politische Ordnung und Kultur sind immer noch auf industrielles Denken ausgerichtet. Wer Zweifel hat: Schauen Sie an, wie alle Leute morgens um neun ins Büro fahren und um fünf zurückkommen. Das ist Schichtbetrieb aus der Fabrik. Die Arbeitsorganisation ist nach wie vor sozial-organisatorisch wie in der Fabrik geprägt – 8-Stunden-Einteilung, Maschinenauslastung als Modell.",
+        "index": 1
+      },
+      {
+        "id": "wolf-lotter-2",
+        "talkSlug": "wolf-lotter",
+        "text": "KI ist Teil der Automatisierung – und das ist eine Emanzipationsgeschichte: Wie die Waschmaschine den Menschen von stupider körperlicher Arbeit befreit hat, emanzipiert uns KI von Informationsflut und Überkomplexität. Wir haben KI gebaut, damit diese Informationsflut weggeht. Die Trennung von Mensch und Maschine ist künstlich – unser Werkzeug ist Teil von uns. Die Technologie ist nur der Handlanger. Die Sinnstifte sind wir. KI zwingt uns geradezu, natürliche Intelligenz wieder schärfer einzusetzen.",
+        "index": 2
+      },
+      {
+        "id": "wolf-lotter-3",
+        "talkSlug": "wolf-lotter",
+        "text": "Wenn die Produktivität durch KI so stark steigt, dass wir uns alles leisten können, sitzen die Leute im Büro und werden gelangweilt. Langeweile ist ein unerträgliches Gefühl – und führt evolutionär unausweichlich zu Neugier. Das ist kein Staatsprogramm, das passiert von selbst. Das ist die Emanzipationsdynamik. Deshalb ist KI kein Technologieproblem, sondern ein Erkenntnisproblem – und die Lösung liegt näher als gedacht.",
+        "index": 3
+      },
+      {
+        "id": "wolf-lotter-4",
+        "talkSlug": "wolf-lotter",
+        "text": "Automatisierte Dummheit ist die grösste Gefahr der KI-Ära. Wissen bleibt die wichtigste Ressource. Das Problem: Wir automatisieren Dummheit statt Wissen. Das zeigt sich in der EU-Regulierungsdebatte: Man reguliert KI, bevor man versteht, was man reguliert. Negativ regulieren – wenn wir etwas nicht können, verbieten wir es. Das ist die Bürokratie als Automatismus. Lotter nennt das 'automatisierte Dummheit' und sieht darin das strukturelle Hauptrisiko.",
+        "index": 4
+      },
+      {
+        "id": "wolf-lotter-5",
+        "talkSlug": "wolf-lotter",
+        "text": "Effizienz vs. Effektivität – der entscheidende Unterschied für die Wissensgesellschaft: Manager machen die Dinge richtig (Effizienz). Führungskräfte tun die richtigen Dinge (Effektivität). Peter Drucker. Das Management der Industriezeit wird nie wieder so wichtig sein. Wer nur optimiert, was schon immer getan wurde, sitzt im Hamsterrad – ein bisschen besser bezahlt, ein bisschen netter, aber immer noch ein Hamster. Die Wissensgesellschaft braucht Leadership, kein Management.",
+        "index": 5
+      },
+      {
+        "id": "wolf-lotter-6",
+        "talkSlug": "wolf-lotter",
+        "text": "Harvard-Experiment: Hochbegabte Studierende wurden während einer Prüfung durch Geräusche gestört (Gläser, Trompeten, Klatschen). Ergebnis: Die Hochbegabten schnitten unglaublich schlecht ab. Die Durchschnittlichen wie immer. Das Gehirn braucht Ruhe und Konzentration. Wir müssen Arbeitswelten schaffen, die nicht aktionistisch sind – keine endlosen Meetings, kein Lärm. Wissensarbeiter können nur arbeiten, wenn sie arbeiten können.",
+        "index": 6
+      },
+      {
+        "id": "wolf-lotter-7",
+        "talkSlug": "wolf-lotter",
+        "text": "Kontext und Zusammenhänge sind das, was Wissen produktiv macht – Titel und Kernthese seines Buchs. Spezialisierung ohne Querverbindungen ist maschinell ersetzbar. Die wertvollsten Menschen im KI-Zeitalter zweifeln, hinterfragen, stellen ungemütliche Fragen. Lotter: Wir brauchen mehr von den 'nervigen' Leuten – jene, die sagen 'stimmt das überhaupt?' und 'kann man das nicht anders machen?'. Für die Schweiz: Handwerk, Wissensarbeit und Tradition der Präzision sind ein Standortvorteil – wenn man versteht, was man kann.",
+        "index": 7
+      }
+    ]
   }
 ]
