@@ -635,5 +635,59 @@
         "index": 7
       }
     ]
+  },
+  {
+    "slug": "marco-andrea-buchmann",
+    "speaker": "Marco-Andrea Buchmann",
+    "title": "Digitales Gold: Wie Zalando KI seit 2011 konsequent einsetzt – vom unsichtbaren Algorithmus zum persönlichen Shoppingassistenten",
+    "tagline": "Zalando hat KI nicht erst entdeckt – sie steckt seit 2011 in der DNA. Jetzt kommt das Zeitalter des Agentic Commerce.",
+    "summary": "Marco-Andrea Buchmann, Chief Data & Product Officer bei Zalando, zeigt, wie Europas grösster Modehändler KI seit 2011 konsequent aufgebaut hat – lange bevor GenAI zum Buzzword wurde. Damals waren es unsichtbare Algorithmen für Lagerverwaltung und Betrugserkennung; heute ist es ein vollständig personalisierter Feed, ein virtueller Ankleidungsraum, ein Trendspotter für 29 europäische Städte und ein Shopping-Assistent mit über 10 Millionen Nutzern (Wachstumsfaktor 20 in einem Jahr). Die entscheidende Grundlage: ein einzigartiger Datenschatz von 60 Millionen Kunden – digitales Gold, das kein anderer europäischer Händler besitzt. Den nächsten grossen Schritt sieht Buchmann im Agentic Commerce: Bis 2030 könnten 50 % des europäischen E-Commerce über KI-Agenten abgewickelt werden. Zalando implementiert bereits das Universal Commerce Protocol (UCP) von Google und baut seine Discovery Engine aus. Sein wichtigster Rat für alle: Zuerst die Daten aufräumen – wer KI auf chaotischen Daten trainiert, bekommt chaotische KI.",
+    "insights": [
+      "KI war bei Zalando seit 2011 präsent – aber lange unsichtbar. Sie optimierte Prozesse im Hintergrund (Lager, Betrug, Vorhersagen). Das neue Paradigma ist, das Einkaufserlebnis menschlicher zu machen: nicht mehr der Nutzer passt sich der Maschine an, sondern die Maschine passt sich dem Nutzer an.",
+      "Zalandos KI-Zeitstrahl: 2013 Lageroptimierung, 2015 Betrugserkennung, 2017 Deep Learning & Computer Vision, 2019 Personalisierung & Outfit-Empfehlungen, 2023 Conversational Assistant, 2025 Virtual Try-On. KI-Kompetenz entsteht nicht über Nacht – sie braucht Jahre konsequenter Investition.",
+      "Datenschatz als entscheidender Wettbewerbsvorteil: Zalando besitzt Daten zu Kundenpräferenzen, Körpermassen und Kaufverhalten von 60+ Millionen Kunden in 29 europäischen Märkten. Kein anderer Anbieter in Europa hat vergleichbare Fashion-Daten – das ist das digitale Gold.",
+      "Der Zalando Shopping-Assistent wuchs innerhalb eines Jahres um Faktor 20 auf über 10 Millionen aktive Nutzer. Natürlichsprachige Beratung ('Was ziehe ich zur Hochzeit an?') trifft einen echten Bedarf – und die Komplexität der Suchanfragen hat seit 2008 dramatisch zugenommen.",
+      "Vier Inspirationsquellen für modernes Shopping (besonders Gen Z): produktbasiert, trendgetrieben, outfit-getrieben (Influencer), anlass-/eventgetrieben. Wer nur Ähnliches empfiehlt, langweilt – wer inspiriert, bindet Kunden. Interessantes Paradox: Kunden wünschen sich Inspiration, kaufen am Ende aber oft genau das, was der Algorithmus zuerst empfohlen hat.",
+      "Agentic Commerce: Bis 2030 könnten ~50 % des europäischen E-Commerce über KI-Agenten abgewickelt werden. Zalando bereitet sich aktiv vor: Universal Commerce Protocol (UCP) von Google implementiert, Discovery Engine für Agenten-Auffindbarkeit gebaut. Wer jetzt schläft, wird ein Problem haben.",
+      "Mode bleibt ein Sonderfall im Agentic Commerce: Fashion ist Selbstausdruck. Man wird einem Agenten nicht einfach sagen 'kaufe mir ein Outfit für die Hochzeit' ohne es vorher zu sehen – anders als bei Commodity-Produkten. Der Mensch bleibt im Entscheidungsprozess, der Agent ist Assistent.",
+      "Wichtigster Rat für KI-Transformation: Zuerst die Daten aufräumen. Buchmann war nach 10 Jahren bei einem quantitativen Hedgefonds schockiert von der Datenlage in klassischen Unternehmen. Garbage in, garbage out – saubere, strukturierte Daten sind die absolute Grundvoraussetzung für funktionierende KI."
+    ],
+    "quotes": [
+      "\"KI liegt bei Zalando wirklich in der DNA. Wir haben das von Anfang an sehr konsequent verwendet – und das hat sich wirklich bezahlt.\"",
+      "\"Die ersten Suchanfragen von 2008 bestanden aus einzelnen Wörtern wie 'Pullover Vogue'. Man musste sich der Maschine anpassen. Heute passt sich die Maschine uns an.\"",
+      "\"Wenn man KI machen will, ist der allererste Schritt: aufräumen. Sonst trainiert man KI auf Müll – und bekommt Müll zurück.\""
+    ],
+    "chunks": [
+      {
+        "id": "marco-andrea-buchmann-0",
+        "talkSlug": "marco-andrea-buchmann",
+        "text": "Marco-Andrea Buchmann, seit 2024 Chief Data & Product Officer bei Zalando, spricht über die KI-Transformation des grössten europäischen Mode-Onlinehändlers – von den Anfängen 2011 bis zum bevorstehenden Zeitalter des Agentic Commerce. Der Titel der Präsentation – \"Die Zeit hat noch keinen Überlebenden\" – ist durchgestrichen. Es geht darum, in dieser neuen KI-Umgebung zu wachsen und die Chancen wirklich zu realisieren. Wer die Chancen nicht nutzt, gibt sie der Konkurrenz. Ein Blick zurück: KI im E-Commerce war lange unsichtbar. Sie optimierte Prozesse im Hintergrund, verbesserte Vorhersagen, automatisierte Aufgaben. Das Motto dieser Ära war Optimierung – das Geschäft intelligenter machen. Wichtig, aber keine grosse Revolution für die Kundschaft. Der Wendepunkt war 2022 mit dem Erscheinen von ChatGPT und generativer KI. Wir haben heute Möglichkeiten, die wir uns vor 15 Jahren nicht vorstellen konnten. Zalandos KI-Zeitstrahl: 2011 Beginn der KI-Nutzung. 2013 Optimierung der Lagerbestände mit Machine Learning. 2015 schrittweise Erweiterung auf Lagerverwaltung und Betrugserkennung. 2017 Deep Learning und Computer Vision, trainiert auf eigenen Daten. 2019 Personalisierung – eine kleine Revolution. Outfit-Empfehlungen mit eigenem Modell (was passt zusammen?). 2023 Conversational Shopping Assistant. 2025 Virtueller Ankleidungsraum und Virtual Try-On. Das Ergebnis: 29 Märkte in ganz Europa, über 17 Milliarden Euro Umsatz, über 60 Millionen Kunden.",
+        "index": 0
+      },
+      {
+        "id": "marco-andrea-buchmann-1",
+        "talkSlug": "marco-andrea-buchmann",
+        "text": "Vor allem: ein riesiger, einzigartiger Datenschatz – digitales Gold – den kein anderer Anbieter in Europa besitzt. Daten zu Kundenpräferenzen, Körpermassen, Stilvorlieben und Kaufverhalten im Lifestyle-Fashion-Bereich. Die Suche hat sich fundamental gewandelt: 2008 waren Suchanfragen einzelne Wörter wie \"Pullover Vogue\" – man musste sich der Maschine anpassen. Heute kann man komplizierte Fragen stellen: \"Elegantes T-Shirt mit blauem Kragen und rotem Muster, das aussieht wie...\". Die Maschine passt sich dem Menschen an. Das neue Ziel: Das Einkaufserlebnis menschlicher machen. Für jeden Kunden einen persönlichen Shopping-Assistenten zur Verfügung stellen. Die Kundenerfahrung heute: Erstens der personalisierte Feed. Der Inhalt ist vollständig personalisiert. Buchmanns eigener Feed zeigt momentan viele Laufschuhe, weil das System erkannt hat, dass er gerne läuft. Zweitens Grössenempfehlung: Alle Produkte werden vermessen. In der Zalando-App kann man sich ebenfalls vermessen lassen – man steht wie ein Cowboy und die App schätzt die Körpermasse, um die optimale Grösse zu empfehlen. Inspiration – vier Quellen, besonders wichtig für Gen Z und jüngere Millennials: Erstens produktbasiert (\"Mir gefallen diese Hosen, ich möchte etwas Ähnliches\"). Zweitens trendgetrieben (neue Trends ausprobieren). Drittens outfit-getrieben (ein interessantes Outfit bei einem Influencer auf TikTok oder Instagram gesehen). Viertens anlass-/eventgetrieben (\"Ich habe eine Hochzeit / gehe in die Berge –",
+        "index": 1
+      },
+      {
+        "id": "marco-andrea-buchmann-2",
+        "talkSlug": "marco-andrea-buchmann",
+        "text": "was soll ich anziehen?\"). Trendspotter: Wöchentlich aktualisierter Trendreport, kostenlos auf der App und Homepage. Zeigt Trends für verschiedene Städte: Berlin (Zalando-Ursprung), Paris, Mailand, Zürich und mehr. Interessante Beobachtung für die Schweiz: Das Tessin folgte Mailand-Trends, die Westschweiz Paris, die Deutschschweiz Frankfurt. Der Röstigraben schlägt auch in der Mode durch. Ursprünglich nur eine Artikelliste – inzwischen in Kontext eingebettet mit Mode-Experten in Berlin, die Trends kulturell einordnen (z.B. \"Butter Yellow\" als Stimmungsfarbe einer Generation). Lifestyle-Assistent: Direkt nach der Inspiration kommt der nächste Schritt – ein KI-Assistent, der Outfit-Fragen für konkrete Anlässe beantwortet. Nicht nur ChatGPT – Zalando hat eine eigene Lösung gebaut, die auf dem Fashion-Know-how und den Zalando-Daten basiert. \"Was soll ich zur Hochzeit anziehen?\" – der Assistent schlägt Hosen vor, man iteriert, verfeinert, und landet beim perfekten Outfit. Der Assistent ist extrem populär: Wachstum um Faktor 20 in einem Jahr, jetzt über 10 Millionen aktive Nutzer. Checkout im Assistant: Man kann jetzt direkt im Zalando-Assistenten kaufen – ohne den Chat zu verlassen, Links zu kopieren oder die App zu wechseln. Artikel in den Warenkorb legen, passende Schuhe erfragen, direkt bezahlen. Das ist erst der Anfang – in Zusammenarbeit mit einem führenden europäischen KI-Labor wird der Assistent radikal weiterentwickelt. Agentic",
+        "index": 2
+      },
+      {
+        "id": "marco-andrea-buchmann-3",
+        "talkSlug": "marco-andrea-buchmann",
+        "text": "Commerce – das grosse Thema: Agenten, die für Menschen einkaufen: \"Ich brauche einen Toaster – kaufe mir den besten.\" Der Agent geht auf verschiedene Websites, kauft, fertig. Prognose: bis 2030 könnten ungefähr 50 % des europäischen E-Commerce agentengetrieben sein. Für Unternehmen, die jetzt schlafen, wird das ein Problem. Zalando bereitet sich aktiv vor: Universal Commerce Protocol (UCP) von Google bereits implementiert. Discovery Engine gebaut, damit Zalando-Produkte für KI-Agenten auffindbar sind. Zalando Assist als Schnittstelle für natürlichsprachige und agentenbasierte Interaktion. Wichtige Nuance: Mode ist Selbstausdruck. Man würde einem Agenten nicht sagen \"kaufe mir ein Outfit für die Hochzeit\" ohne es vorher zu sehen. Das unterscheidet Fashion von Commodity-Käufen. Der Agent kann unterstützen, aber der Mensch bleibt im Entscheidungsprozess. Fazit und wichtigster Rat: Zalando hat von Anfang an konsequent auf Daten und KI gesetzt. Wir haben die Daten, die Modelle und das Talent – und eine klare Vision für das Zeitalter des Agentic Commerce. Buchmanns Rat Nummer eins für Unternehmen in der KI-Transformation: Zuerst die Daten aufräumen. Er war nach 10 Jahren bei einem quantitativen Hedgefonds schockiert, wie schlecht die Datenlage in vielen Unternehmen ist. Garbage in, garbage out – wer KI auf schlechten Daten trainiert, bekommt schlechte KI. Das ist der",
+        "index": 3
+      },
+      {
+        "id": "marco-andrea-buchmann-4",
+        "talkSlug": "marco-andrea-buchmann",
+        "text": "allererste Schritt.",
+        "index": 4
+      }
+    ]
   }
 ]
