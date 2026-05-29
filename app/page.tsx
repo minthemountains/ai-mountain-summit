@@ -1,6 +1,7 @@
 import TalkCard from "@/components/TalkCard";
 import InsightCard from "@/components/InsightCard";
 import MomentsSection from "@/components/MomentsSection";
+import LikeAndShare from "@/components/LikeAndShare";
 import talksData from "@/data/talks.json";
 
 interface Talk {
@@ -53,6 +54,8 @@ export default function Home() {
           Die wichtigsten Erkenntnisse jeder Keynote – durchsuchbar, lesbar und mit KI erkundbar.
         </p>
       </header>
+
+      <LikeAndShare />
 
       {talks.length === 0 ? (
         <div className="text-center py-20 bg-white rounded-2xl border border-stone-100 shadow-sm">
