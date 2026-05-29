@@ -133,7 +133,6 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
                     ref={fileInputRef}
                     type="file"
                     accept="image/*"
-                    capture="environment"
                     className="hidden"
                     onChange={handleInputChange}
                   />
