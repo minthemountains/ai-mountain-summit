@@ -7,6 +7,35 @@ interface MomentsUploadModalProps {
   onSuccess: () => void;
 }
 
+// Compress & resize image client-side to stay well under Vercel's 4.5 MB body limit.
+// Max dimension: 1920 px, JPEG quality: 0.82 — typically yields 200–600 KB.
+async function compressImage(file: File): Promise<Blob> {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    const url = URL.createObjectURL(file);
+    img.onload = () => {
+      URL.revokeObjectURL(url);
+      const MAX = 1920;
+      let { width, height } = img;
+      if (width > MAX || height > MAX) {
+        if (width > height) { height = Math.round((height / width) * MAX); width = MAX; }
+        else { width = Math.round((width / height) * MAX); height = MAX; }
+      }
+      const canvas = document.createElement("canvas");
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext("2d")!;
+      ctx.drawImage(img, 0, 0, width, height);
+      canvas.toBlob((blob) => {
+        if (blob) resolve(blob);
+        else reject(new Error("Compression failed"));
+      }, "image/jpeg", 0.82);
+    };
+    img.onerror = reject;
+    img.src = url;
+  });
+}
+
 export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUploadModalProps) {
   const [file, setFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
@@ -18,13 +47,9 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleFileChange = useCallback((f: File) => {
-    const allowed = ["image/jpeg", "image/png", "image/webp"];
-    if (!allowed.includes(f.type)) {
-      setError("Nur JPEG, PNG oder WebP erlaubt");
-      return;
-    }
-    if (f.size > 10 * 1024 * 1024) {
-      setError("Datei zu gross (max. 10 MB)");
+    const allowed = ["image/jpeg", "image/png", "image/webp", "image/heic", "image/heif"];
+    if (!allowed.includes(f.type) && !f.type.startsWith("image/")) {
+      setError("Nur Bilddateien erlaubt (JPEG, PNG, WebP)");
       return;
     }
     setError("");
@@ -53,15 +78,19 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
     setError("");
 
     try {
+      // Compress before uploading
+      setProgress(20);
+      const compressed = await compressImage(file);
+      setProgress(35);
+
       const formData = new FormData();
-      formData.append("file", file);
+      formData.append("file", compressed, "photo.jpg");
       formData.append("name", name);
       formData.append("caption", caption);
 
-      // Simulate progress while uploading
       const progressInterval = setInterval(() => {
-        setProgress((p) => Math.min(p + 15, 85));
-      }, 300);
+        setProgress((p) => Math.min(p + 10, 88));
+      }, 400);
 
       const res = await fetch("/api/moments/upload", {
         method: "POST",
@@ -76,9 +105,7 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
         throw new Error(data.error || "Upload fehlgeschlagen");
       }
 
-      setTimeout(() => {
-        onSuccess();
-      }, 500);
+      setTimeout(() => onSuccess(), 400);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Upload fehlgeschlagen");
       setProgress(0);
@@ -90,14 +117,11 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
   return (
     <>
       {/* Backdrop */}
-      <div
-        className="fixed inset-0 bg-black/50 z-40"
-        onClick={onClose}
-      />
+      <div className="fixed inset-0 bg-black/50 z-40" onClick={onClose} />
 
       {/* Bottom sheet on mobile, centered dialog on desktop */}
       <div className="fixed inset-x-0 bottom-0 z-50 sm:inset-0 sm:flex sm:items-center sm:justify-center sm:p-4">
-        <div className="bg-white rounded-t-3xl sm:rounded-2xl w-full sm:max-w-md shadow-2xl">
+        <div className="bg-white rounded-t-3xl sm:rounded-2xl w-full sm:max-w-md shadow-2xl max-h-[92dvh] overflow-y-auto">
           {/* Handle bar (mobile) */}
           <div className="flex justify-center pt-3 pb-1 sm:hidden">
             <div className="w-10 h-1 rounded-full bg-stone-200" />
@@ -127,8 +151,8 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
                   onDragOver={(e) => e.preventDefault()}
                 >
                   <div className="text-4xl mb-2">📷</div>
-                  <p className="text-stone-600 font-medium text-sm">Foto auswählen oder aufnehmen</p>
-                  <p className="text-stone-400 text-xs mt-1">JPEG, PNG, WebP · max. 10 MB</p>
+                  <p className="text-stone-600 font-medium text-sm">Foto auswählen</p>
+                  <p className="text-stone-400 text-xs mt-1">JPEG, PNG, WebP</p>
                   <input
                     ref={fileInputRef}
                     type="file"
@@ -147,10 +171,7 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
                   />
                   <button
                     type="button"
-                    onClick={() => {
-                      setFile(null);
-                      setPreview(null);
-                    }}
+                    onClick={() => { setFile(null); setPreview(null); }}
                     className="absolute top-2 right-2 w-8 h-8 bg-black/60 rounded-full flex items-center justify-center text-white hover:bg-black/80 transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -198,12 +219,17 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
               )}
 
               {/* Progress bar */}
-              {uploading && progress > 0 && progress < 100 && (
-                <div className="h-1.5 bg-stone-100 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-brand-400 rounded-full transition-all duration-300"
-                    style={{ width: `${progress}%` }}
-                  />
+              {uploading && progress > 0 && (
+                <div className="space-y-1.5">
+                  <div className="h-1.5 bg-stone-100 rounded-full overflow-hidden">
+                    <div
+                      className="h-full bg-brand-400 rounded-full transition-all duration-300"
+                      style={{ width: `${progress}%` }}
+                    />
+                  </div>
+                  <p className="text-xs text-stone-400 text-center">
+                    {progress < 35 ? "Wird komprimiert…" : "Wird hochgeladen…"}
+                  </p>
                 </div>
               )}
 
@@ -220,7 +246,7 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
                       <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                       <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                     </svg>
-                    Wird hochgeladen…
+                    Einen Moment…
                   </>
                 ) : (
                   <>
