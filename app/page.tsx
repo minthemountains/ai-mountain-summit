@@ -1,5 +1,6 @@
 import TalkCard from "@/components/TalkCard";
 import InsightCard from "@/components/InsightCard";
+import MomentsSection from "@/components/MomentsSection";
 import talksData from "@/data/talks.json";
 
 interface Talk {
@@ -105,6 +106,9 @@ export default function Home() {
           </section>
         </>
       )}
+
+      {/* Summit Moments */}
+      <MomentsSection />
 
       {/* Footer */}
       <footer className="mt-16 text-center text-stone-400 text-xs">
