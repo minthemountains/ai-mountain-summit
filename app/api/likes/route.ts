@@ -29,6 +29,7 @@ export async function POST() {
     access: "public",
     contentType: "application/json",
     addRandomSuffix: false,
+    allowOverwrite: true,
   });
 
   return Response.json({ count: newCount });

@@ -1,16 +1,16 @@
 "use client";
 
 import { useState, useRef, useCallback } from "react";
+import { upload } from "@vercel/blob/client";
 
 interface MomentsUploadModalProps {
   onClose: () => void;
   onSuccess: () => void;
 }
 
-// Compress & resize image client-side to stay well under Vercel's 4.5 MB body limit.
-// Max dimension: 1920 px, JPEG quality: 0.82 — typically yields 200–600 KB.
+// Compress & resize client-side for faster upload (not for size limits — direct upload has none).
 async function compressImage(file: File): Promise<Blob> {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const img = new Image();
     const url = URL.createObjectURL(file);
     img.onload = () => {
@@ -24,14 +24,14 @@ async function compressImage(file: File): Promise<Blob> {
       const canvas = document.createElement("canvas");
       canvas.width = width;
       canvas.height = height;
-      const ctx = canvas.getContext("2d")!;
-      ctx.drawImage(img, 0, 0, width, height);
-      canvas.toBlob((blob) => {
-        if (blob) resolve(blob);
-        else reject(new Error("Compression failed"));
-      }, "image/jpeg", 0.82);
+      canvas.getContext("2d")!.drawImage(img, 0, 0, width, height);
+      canvas.toBlob(
+        (blob) => resolve(blob ?? file),
+        "image/jpeg",
+        0.82
+      );
     };
-    img.onerror = reject;
+    img.onerror = () => resolve(file); // fallback: send original
     img.src = url;
   });
 }
@@ -43,19 +43,18 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
   const [caption, setCaption] = useState("");
   const [uploading, setUploading] = useState(false);
   const [progress, setProgress] = useState(0);
+  const [progressLabel, setProgressLabel] = useState("");
   const [error, setError] = useState("");
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleFileChange = useCallback((f: File) => {
-    const allowed = ["image/jpeg", "image/png", "image/webp", "image/heic", "image/heif"];
-    if (!allowed.includes(f.type) && !f.type.startsWith("image/")) {
-      setError("Nur Bilddateien erlaubt (JPEG, PNG, WebP)");
+    if (!f.type.startsWith("image/")) {
+      setError("Nur Bilddateien erlaubt");
       return;
     }
     setError("");
     setFile(f);
-    const url = URL.createObjectURL(f);
-    setPreview(url);
+    setPreview(URL.createObjectURL(f));
   }, []);
 
   function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
@@ -74,37 +73,29 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
     if (!file) return;
 
     setUploading(true);
-    setProgress(10);
     setError("");
 
     try {
-      // Compress before uploading
-      setProgress(20);
+      // Step 1: compress
+      setProgress(15);
+      setProgressLabel("Wird komprimiert…");
       const compressed = await compressImage(file);
+
+      // Step 2: direct upload to Vercel Blob (no serverless body limit)
       setProgress(35);
+      setProgressLabel("Wird hochgeladen…");
 
-      const formData = new FormData();
-      formData.append("file", compressed, "photo.jpg");
-      formData.append("name", name);
-      formData.append("caption", caption);
-
-      const progressInterval = setInterval(() => {
-        setProgress((p) => Math.min(p + 10, 88));
-      }, 400);
-
-      const res = await fetch("/api/moments/upload", {
-        method: "POST",
-        body: formData,
+      await upload(`moments/photos/${Date.now()}.jpg`, compressed, {
+        access: "public",
+        handleUploadUrl: "/api/moments/upload",
+        clientPayload: JSON.stringify({ name: name.trim(), caption: caption.trim() }),
+        onUploadProgress: ({ percentage }) => {
+          setProgress(35 + Math.round(percentage * 0.6)); // 35→95
+        },
       });
 
-      clearInterval(progressInterval);
       setProgress(100);
-
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        throw new Error(data.error || "Upload fehlgeschlagen");
-      }
-
+      setProgressLabel("Fertig!");
       setTimeout(() => onSuccess(), 400);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Upload fehlgeschlagen");
@@ -164,11 +155,7 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
               ) : (
                 <div className="relative">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={preview}
-                    alt="Preview"
-                    className="w-full aspect-square object-cover rounded-2xl"
-                  />
+                  <img src={preview} alt="Preview" className="w-full aspect-square object-cover rounded-2xl" />
                   <button
                     type="button"
                     onClick={() => { setFile(null); setPreview(null); }}
@@ -181,7 +168,7 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
                 </div>
               )}
 
-              {/* Name field */}
+              {/* Name */}
               <div>
                 <label className="block text-sm font-medium text-stone-700 mb-1.5">
                   Dein Name <span className="text-stone-400 font-normal">(optional)</span>
@@ -197,7 +184,7 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
                 />
               </div>
 
-              {/* Caption field */}
+              {/* Caption */}
               <div>
                 <label className="block text-sm font-medium text-stone-700 mb-1.5">
                   Caption <span className="text-stone-400 font-normal">(optional)</span>
@@ -218,18 +205,16 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
                 <p className="text-red-500 text-sm bg-red-50 rounded-xl px-4 py-2">{error}</p>
               )}
 
-              {/* Progress bar */}
-              {uploading && progress > 0 && (
+              {/* Progress */}
+              {uploading && (
                 <div className="space-y-1.5">
                   <div className="h-1.5 bg-stone-100 rounded-full overflow-hidden">
                     <div
-                      className="h-full bg-brand-400 rounded-full transition-all duration-300"
+                      className="h-full bg-brand-400 rounded-full transition-all duration-200"
                       style={{ width: `${progress}%` }}
                     />
                   </div>
-                  <p className="text-xs text-stone-400 text-center">
-                    {progress < 35 ? "Wird komprimiert…" : "Wird hochgeladen…"}
-                  </p>
+                  <p className="text-xs text-stone-400 text-center">{progressLabel}</p>
                 </div>
               )}
 
@@ -249,10 +234,7 @@ export default function MomentsUploadModal({ onClose, onSuccess }: MomentsUpload
                     Einen Moment…
                   </>
                 ) : (
-                  <>
-                    <span>📸</span>
-                    Foto teilen
-                  </>
+                  <><span>📸</span> Foto teilen</>
                 )}
               </button>
             </form>
