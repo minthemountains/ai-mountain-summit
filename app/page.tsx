@@ -33,7 +33,7 @@ export default function Home() {
     for (const insight of picked) {
       featuredInsights.push({ insight, speaker: talk.speaker, role: speakerRoles[talk.slug], talkSlug: talk.slug });
     }
-    if (featuredInsights.length >= 6) break;
+    if (featuredInsights.length >= talks.length) break;
   }
 
   return (
