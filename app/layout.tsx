@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ChatDrawer from "@/components/ChatDrawer";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className="min-h-full bg-[#FAFAF8] text-stone-900 antialiased">
         {children}
         <ChatDrawer />
+        <Analytics />
       </body>
     </html>
   );
