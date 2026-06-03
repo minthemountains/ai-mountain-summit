@@ -4,7 +4,7 @@
     "speaker": "Reto Gurtner",
     "title": "KI und Digitalisierung: Was Laax schon früh richtig gemacht hat",
     "tagline": "Daten kennen keine politischen Grenzen – wer früh investiert, bleibt vorn.",
-    "summary": "Reto Gurtner, CEO der Weisse Arena Gruppe, blickt auf eine Pioniergeschichte zurück: Schon in den 80er Jahren betrieb Laax die erste Website der Schweiz – gehostet in New York, weil es hierzulande keinen Provider gab. Mit einer 128-kB-Standleitung für 43'000 Franken im Monat und dem ersten Internetcafé im Skigebiet legte Laax früh die Basis für eine digitale Unternehmenskultur. Heute integriert Gurtner KI tief in Geschäftsprozesse: von der Administration über die Kundenkommunikation bis hin zu KI-Agents. Entscheidend ist für ihn dabei der konkrete Nutzen – entweder für den Kunden oder das Unternehmen. Wer nur einen neuen Trend mitmacht, ohne klaren Mehrwert, steigt schnell wieder aus.",
+    "summary": "Reto Gurtner, CEO der Weisse Arena Gruppe, blickt auf eine Pioniergeschichte zurück: Schon in den 80er Jahren betrieb Laax die erste Website der Schweiz – gehostet in New York, weil es hierzulande keinen Provider gab. Mit einer 128-kB-Standleitung für 43'000 Franken im Jahr und dem ersten Internetcafé im Skigebiet legte Laax früh die Basis für eine digitale Unternehmenskultur. Heute integriert Gurtner KI tief in Geschäftsprozesse: von der Administration über die Kundenkommunikation bis hin zu KI-Agents. Entscheidend ist für ihn dabei der konkrete Nutzen – entweder für den Kunden oder das Unternehmen. Wer nur einen neuen Trend mitmacht, ohne klaren Mehrwert, steigt schnell wieder aus.",
     "insights": [
       "Frühzeitig in Digitalisierung investieren schafft Glaubwürdigkeit und Wettbewerbsvorteile – Laax hatte schon in den 80ern die erste Website der Schweiz.",
       "KI entfaltet ihren Wert erst, wenn sie konkreten Nutzen stiftet – entweder für den Kunden oder das eigene Unternehmen. Ohne klaren Mehrwert lohnt sich der Einsatz nicht.",
@@ -15,7 +15,7 @@
       "Konsumenten werden täglich von Informationen überflutet. KI kann helfen, die Aufmerksamkeit der richtigen Zielgruppe gezielt zu gewinnen – durch smarte Communitys und personalisierte Angebote."
     ],
     "quotes": [
-      "Wir hatten die erste lx.com-Seite – und wir haben in der Schweiz keinen Provider gefunden. Die erste Laax-Website war gehostet in New York.",
+      "Wir hatten die erste laax.com-Seite – und wir haben in der Schweiz keinen Provider gefunden. Die erste Laax-Website war gehostet in New York.",
       "Daten haben keine politischen Grenzen. Auch wenn die Globalisierung politisch als tot gilt – die Daten sagen das Gegenteil.",
       "Wenn es keinen Nutzen hat – weder für den Kunden noch für mich – dann steige ich einfach aus."
     ],
@@ -23,13 +23,13 @@
       {
         "id": "reto-gurtner-0",
         "talkSlug": "reto-gurtner",
-        "text": "Schon weit bevor überhaupt über KI im heutigen Ausmass gesprochen wurde, hat Laax schon auf die Digitalisierung gesetzt und sie sehr früh als Teil des Geschäftsmodells verstanden. Wir hatten die erste Laax-Website – und wir haben in der Schweiz keinen Provider gefunden. Die erste lx.com war gehostet in New York. Das war eine Zeit, wo ich in Amerika studieren konnte. Ich wollte unbedingt eine Page aufbauen.",
+        "text": "Schon weit bevor überhaupt über KI im heutigen Ausmass gesprochen wurde, hat Laax schon auf die Digitalisierung gesetzt und sie sehr früh als Teil des Geschäftsmodells verstanden. Wir hatten die erste Laax-Website – und wir haben in der Schweiz keinen Provider gefunden. Die erste laax.com war gehostet in New York. Das war eine Zeit, wo ich in Amerika studieren konnte. Ich wollte unbedingt eine Page aufbauen.",
         "index": 0
       },
       {
         "id": "reto-gurtner-1",
         "talkSlug": "reto-gurtner",
-        "text": "Wir haben damals eine Standleitung von der PTT bekommen – 128 kB, für 43'000 Franken pro Monat. Ich habe ein Internetcafé gemacht, das erste Internetcafé im Skigebiet, damit die Kids surfen konnten. Und somit sind wir da reingekommen – das hat uns einen Teil der Glaubwürdigkeit gegeben.",
+        "text": "Wir haben damals eine Standleitung von der PTT bekommen – 128 kB, für 43'000 Franken pro Jahr. Ich habe ein Internetcafé gemacht, das erste Internetcafé im Skigebiet, damit die Kids surfen konnten. Und somit sind wir da reingekommen – das hat uns einen Teil der Glaubwürdigkeit gegeben.",
         "index": 1
       },
       {
