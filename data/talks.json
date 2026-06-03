@@ -737,5 +737,70 @@
         "index": 3
       }
     ]
+  },
+  {
+    "slug": "pascal-kaufmann-breakout",
+    "speaker": "Pascal Kaufmann",
+    "title": "Brain Code knacken: Schweiz' Chance in der KI-Revolution",
+    "tagline": "Warum echte Intelligenz nicht in Rechenzentren entsteht, sondern im Verständnis des menschlichen Gehirns.",
+    "summary": "Pascal Kaufmann, Hirnforscher und Präsident der Global AI Awards, argumentiert gegen den Hype um Large Language Models wie ChatGPT. Er betont, dass diese statistische Maschinen sind, nicht intelligent. Sein Fokus liegt auf dem \"Brain Code\" – dem fundamentalen Prinzip, das Intelligenz ermöglicht. Kaufmann zeigt, wie die Schweiz durch Spitzenforschung in Neurowissenschaften eine führende Position im KI-Rennen erreichen kann, statt in teure Rechenzentren zu investieren. Er nutzt das Beispiel von Leonardos Flügelprofil: Das Prinzip verstehen ist wichtiger als die Oberfläche zu kopieren.",
+    "insights": [
+      "ChatGPT und moderne KI-Systeme sind dynamische Bibliotheken, keine echte Intelligenz – sie rekombinieren existierendes Wissen statt Neues zu schaffen",
+      "Das menschliche Gehirn funktioniert mit minimaler Energie (Schokolade), während GPT enorme Rechenzentren benötigt – ein Designproblem, keine Intelligenzfrage",
+      "Die Schweiz hat Zugang zu den weltweit besten AI-Talenten durch Leer 42 in Davos und sollte in Brain-Code-Forschung statt in Infrastruktur investieren",
+      "Künstliche Intelligenz ist eine Fehlbezeichnung; der Begriff verwirrt mehr als er hilft – besser: Amazing Innovation",
+      "Selbstfahrende Autos in Zürich innerhalb von 5-10 Jahren sind unrealistisch; die technologischen Herausforderungen sind größer als oft dargestellt",
+      "Schweizer Neutralität und Trust sind wertvollere Währungen als Rechenpower im globalen KI-Wettbewerb",
+      "Talent heute bedeutet nicht Factenwissen, sondern Kompetenz, Probleme zu lösen und die richtigen Fragen zu stellen"
+    ],
+    "quotes": [
+      "Intelligenz hat sogar gar nichts mit Big Data und Deep Learning zu tun. Wenn immer ihr jemanden hört, der pitcht Big Data, Deep Learning – dann seid ein bisschen skeptisch.",
+      "Das Prinzip des Fluges ist genau diese gewölbte Fläche, ob du Felsen drauf klebst oder Knochen und Blut – völlig egal. Das ist das Prinzip.",
+      "Wenn wir es schaffen würden, das Prinzip des Gehirns zu knacken, dann könnten wir aus der Schweiz heraus sogar Nvidia killen."
+    ],
+    "chunks": [
+      {
+        "id": "pascal-kaufmann-breakout-0",
+        "talkSlug": "pascal-kaufmann-breakout",
+        "text": "ChatGPT und moderne KI-Systeme sind dynamische Bibliotheken, keine echte Intelligenz – sie rekombinieren existierendes Wissen statt Neues zu schaffen",
+        "index": 0
+      },
+      {
+        "id": "pascal-kaufmann-breakout-1",
+        "talkSlug": "pascal-kaufmann-breakout",
+        "text": "Das menschliche Gehirn funktioniert mit minimaler Energie (Schokolade), während GPT enorme Rechenzentren benötigt – ein Designproblem, keine Intelligenzfrage",
+        "index": 1
+      },
+      {
+        "id": "pascal-kaufmann-breakout-2",
+        "talkSlug": "pascal-kaufmann-breakout",
+        "text": "Die Schweiz hat Zugang zu den weltweit besten AI-Talenten durch Leer 42 in Davos und sollte in Brain-Code-Forschung statt in Infrastruktur investieren",
+        "index": 2
+      },
+      {
+        "id": "pascal-kaufmann-breakout-3",
+        "talkSlug": "pascal-kaufmann-breakout",
+        "text": "Künstliche Intelligenz ist eine Fehlbezeichnung; der Begriff verwirrt mehr als er hilft – besser: Amazing Innovation",
+        "index": 3
+      },
+      {
+        "id": "pascal-kaufmann-breakout-4",
+        "talkSlug": "pascal-kaufmann-breakout",
+        "text": "Selbstfahrende Autos in Zürich innerhalb von 5-10 Jahren sind unrealistisch; die technologischen Herausforderungen sind größer als oft dargestellt",
+        "index": 4
+      },
+      {
+        "id": "pascal-kaufmann-breakout-5",
+        "talkSlug": "pascal-kaufmann-breakout",
+        "text": "Schweizer Neutralität und Trust sind wertvollere Währungen als Rechenpower im globalen KI-Wettbewerb",
+        "index": 5
+      },
+      {
+        "id": "pascal-kaufmann-breakout-6",
+        "talkSlug": "pascal-kaufmann-breakout",
+        "text": "Talent heute bedeutet nicht Factenwissen, sondern Kompetenz, Probleme zu lösen und die richtigen Fragen zu stellen",
+        "index": 6
+      }
+    ]
   }
 ]

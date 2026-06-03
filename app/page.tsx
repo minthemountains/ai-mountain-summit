@@ -25,6 +25,7 @@ const speakerRoles: Record<string, string> = {
   "wolf-lotter": "Business Journalist & Knowledge Economy Expert",
   "marco-andrea-buchmann": "Head of Applied Science, Zalando Tech Hub Zurich",
   "sina-wulfmeyer": "Chief Data Officer, Unique AI",
+  "pascal-kaufmann-breakout": "Founder, AlpineAI",
 };
 
 export default function Home() {
