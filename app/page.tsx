@@ -115,7 +115,7 @@ export default function Home() {
       <MomentsSection />
 
       {/* Footer */}
-      <footer className="mt-16 text-center text-stone-400 text-xs">
+      <footer className="mt-16 text-center text-stone-400 text-xs space-y-2">
         <p>
           AI Mountain Summit 2026 · Laax, Schweiz · Vibe coded by{' '}
           <a
@@ -127,6 +127,9 @@ export default function Home() {
             Michael Eberle
           </a>{' '}
           during the conference
+        </p>
+        <p className="max-w-xl mx-auto text-stone-300 leading-relaxed">
+          confsum ist ein Experiment. Transkripte basieren auf Audioaufnahmen – einzelne Aussagen können aufgrund schlechter Tonqualität falsch erkannt worden sein. Die Inhalte sind KI-interpretiert und wurden von den Speakern nicht abgesegnet.
         </p>
       </footer>
     </main>
